@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E1095DA-A70C-5464-51A6-672EE6F15898}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>EditorPlugins:7</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.1.9f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_9;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;UNITY_PURCHASING;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;USE_XLUA;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_9;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;UNITY_PURCHASING;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;USE_XLUA;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CloudWebServicesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FacebookModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WebModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Unity.Locator">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.95.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.95.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
+      <HintPath>Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/Long Nguyen/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Samtruyen-master.Plugins.csproj">
+      <Project>{7F88F2D3-36B8-5489-1AA6-BD00FB726C8D}</Project>
+      <Name>Samtruyen-master.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{01B441AF-88CF-005F-B176-75F0E9BDF74E}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\UnityChannel\XiaomiSupport\Editor\AppStoreModel.cs" />
+    <Compile Include="Assets\Plugins\UnityChannel\XiaomiSupport\Editor\AppStoreOnboardApi.cs" />
+    <Compile Include="Assets\Plugins\UnityChannel\XiaomiSupport\Editor\AppStoreSettingsEditor.cs" />
+    <Compile Include="Assets\Plugins\UnityChannel\XiaomiSupport\Editor\XiaomiPackageNameExtension.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\BezierLineRendererEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\CanvasGroupActivator.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\CUIBezierCurveEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\CUIGraphicEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\CUIImageEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\CUITextEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\NonDrawingGraphicEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\ReadOnlyDrawer.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\TextPicEditor.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\uGUITools.cs" />
+    <Compile Include="Assets\Plugins\unity-ui-extensions\Editor\UIExtensionsMenuOptions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\00Uwin\Shader\GreyNormal.shader" />
+    <None Include="Assets\00Uwin\ZBundle\Common\Font\BitmapFonts\Font1\so-1-export.fnt" />
+    <None Include="Assets\00Uwin\ZBundle\Common\Font\BitmapFonts\Font2\so-2-export.fnt" />
+    <None Include="Assets\00Uwin\ZBundle\Common\Font\BitmapFonts\Font3\so-3-export.fnt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\FxFree\nongtrai_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\FxGiauTo\nongtrai_giauto.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\FxMiniGame\nongtrai_mini.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\FxNoHu\nongtrai_nohu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\FxThangLon\nongtrai_thanglon.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Bonus\nongtrai_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Free\nongtrai_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Jackpot\nongtrai_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Spine\KSudung\item4\ItemMrPing.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Spine\item1\nongtrai_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Spine\item2\nongtrai_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\AniSpine\Items\Spine\item3\nongtrai_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\Texture\Lobby\Spine\Gau Po\Po.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\Texture\Lobby\Spine\Ngong Ping\MrPing.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\Texture\Lobby\Spine\Rua Oogway\Oogway.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game1GauTruc\Texture\Lobby\Spine\Shifu\Shifu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\FxFree\mafia_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\FxGiauTo\mafia_giauto.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\FxMiniGame\mafia_mini.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\FxNoHu\mafia_nohu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\FxThangLon\mafia_thanglon.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\Items\Bonus\mafia_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\Items\Free\mafia_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\Items\Jackpot\mafia_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\NewSpine\Item\item_1\mafia_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\NewSpine\Item\item_2\mafia_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\AniSpine\NewSpine\Item\item_3\mafia_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\Texture\Lobby\Spine\bet_10000_Spine_Animation\OngThanTai.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\Texture\Lobby\Spine\bet_1000_Spine_Animation\Dongnu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\Texture\Lobby\Spine\bet_100_Spine_Animation\Lion.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game2ThanTai\Texture\Lobby\Spine\bet_5000_Spine_Animation\DongNam.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\FxFree\haivuong_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\FxGiauTo\haivuong_giauto.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\FxMiniGame\haivuong_mini.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\FxNoHu\haivuong_nohu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\FxThangLon\haivuong_thanglon.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\Items\Bonus\haivuong_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\Items\Free\haivuong_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\Items\Jackpot\haivuong_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\Items\Wild\haivuong_wild.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AniSpineOld\Items\WildFull\haivuong_wild_full.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Game\Bonus\haivuong_bonus.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Game\Freespin\haivuong_free.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Game\Jackpot\haivuong_jackpot.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Game\Wild\haivuong_wild.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Game\Wild_Colum\haivuong_wild_full.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Item\Bonus\DieuThuyenItem.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Item\Freespin\ItemMoonBlade.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Item\Wild_Colum\KhongMinh.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Lobby\Caocao\CaoCao.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Lobby\KhongMinh\KhongMinh.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Lobby\LuBo\LuBu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\AnimSpine\Lobby\QuanVu\QuanVu.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\BonusGame\Cục vàng_spine_anim\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\BonusGame\Lồng đèn_spine_anim\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\BonusGame\Điêu Thuyền_spine_anim\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\Bonus_X2\Rèm_Spine_Animation\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\Main\Caocao_spine_anim\Full\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\Main\QuanVu_spine_anim\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\Texture\MiniGamebonusgame_DaoGiauVang\SpinDieuTHuyen\skeleton.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\texturesamtruyen\Spine\khobaau.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\Game3TamQuoc\texturesamtruyen\Spine\samtruyen.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Bau\bau.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Ca\ca.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Cua\cua.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Ga\conga.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Huu\huou.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameBauCua\Spine\Tom\tom.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameMiniPoker\Spine\Cangat\Can_Gat_MiniPoker.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameTaiXiu\Font\mntx_time_font_1.fnt" />
+    <None Include="Assets\00Uwin\ZBundle\GameTaiXiu\Font\mntx_time_font_2.fnt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVQMM\Spine\VQMM.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\deco phai\deco_right.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\deco trai\deco_left.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item1_wild\wild.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item2_goldfish\golden_fish.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item3_turtle\turtle.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item4_seahorse\seahorse.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item5_crab\crab.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\item6_seastar\sea_star.atlas.txt" />
+    <None Include="Assets\00Uwin\ZBundle\GameVuaBao\Spine\logo ca dai duong\title.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\Common\Scripts\GameEnums.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Common\Scripts\UILayer.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Common\Scripts\UILayerKey.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Common\Scripts\json.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\MiniPoker\Scripts\LGameMiniPoker\LGameMiniPoker.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Data\SRSTlmnCard.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Game\LGameTLMN.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Game\TlmnCard.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Game\TlmnCardController.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Game\UITlmnPlayer.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Lobby\LGameTLMNLobby.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TLMN\Scripts\Lobby\UIGameTLMNRoomItem.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\Game\TaiXiu\ShowRewardEvent.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\ConfigGate.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\CreateAccount\LCreateAccountController.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\CreateAccount\LCreateNewName.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\Customer\CustomerAutoSort.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\Lobby\ElementGameTlmn.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\Lobby\LViewLobby.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\Lobby\LobbyController.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\Login\BTGetOTPLogin.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Lua\UILayerController.lua.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiBacay\3_Cay.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiSam\Sam_Loc.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiSamSolo\Sam_Loc_Solo.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiTala\tala.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiTienLen\TLMN.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BaiTienLenSolo\TLMN_Solo.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\BauCua\Bau_Cua.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\ButtonCuaHang\daily.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\Commingsoon\commingsoon.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\Commingsoon\slot-tala-coming soon.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\GunBound\GnDragond.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\Tarzan_Du_Day\Sukien-RongThan-2.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\Tarzan_Du_Day\Tarzan.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\Tarzan_Du_Day\Tarzan_Du_Day.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\Tarzan_Du_Day\rongthan.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\Tarzan_Du_Day\title_trieu_hoi.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\cadaiduong export\dragonbound.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\cao thap export\Cao_Thap.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\minipoker export\Mini_Poker.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\MiniGameIcon\taixiu export\Button_Tai_Xiu.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\Slot Panda\Farm.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\Slot TamQuoc\Thuy_Cung.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\Slot ThanTai\Bo_Gia.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\ThanThu\Than_Thu.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Spine\XocDia\Xoc_Dia.atlas.txt" />
+    <None Include="Assets\01UwinLua\Game\GateGame\Textures\PopUpMiniGame\iconMenu\MiniGame.atlas.txt" />
+    <None Include="Assets\Best HTTP (Pro)\BestHTTP\SecureProtocol\License.txt" />
+    <None Include="Assets\Best HTTP (Pro)\ReleaseNotes.txt" />
+    <None Include="Assets\Best HTTP (Pro)\license.txt" />
+    <None Include="Assets\Best HTTP (Pro)\link.xml" />
+    <None Include="Assets\Best HTTP (Pro)\link_android_subset.xml" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\link.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle Add.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle AddMultiply.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle AddSmooth.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle Alpha Blend.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle Blend.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle Multiply.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle MultiplyDouble.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle Premultiply Blend.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UI Particle VertexLit Blended.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UIAdditive.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UIMultiply.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UIScreen.shader" />
+    <None Include="Assets\Plugins\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\Resources\Data\GameConfig.txt" />
+    <None Include="Assets\Spine Examples\Spine\Dragon\dragon.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Dragon\license.txt" />
+    <None Include="Assets\Spine Examples\Spine\Eyes\eyes.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\FootSoldier\FS_White.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\FootSoldier\license.txt" />
+    <None Include="Assets\Spine Examples\Spine\Gauge\Gauge.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Goblins\goblins.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Hero\hero-pro.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Hero\license.txt" />
+    <None Include="Assets\Spine Examples\Spine\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Raptor\raptor.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Spineunitygirl\Doi.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\Strechyman\stretchyman-diffuse-pma.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\spineboy-pro\spineboy-pro.atlas.txt" />
+    <None Include="Assets\Spine Examples\Spine\spineboy-unity\spineboy.atlas.txt" />
+    <None Include="Assets\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+    <None Include="Assets\Spine\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
+    <None Include="Assets\Spine\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Spine-Skeleton-Fill.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Spine-Skeleton-Tint.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteSpecular.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CameraDepthTexture.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\CameraNormalsTexture.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Fill.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Tint.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
+    <None Include="Assets\Spine\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Multiply.shader" />
+    <None Include="Assets\Spine\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Screen.shader" />
+    <None Include="Assets\Spine\spine-unity\Shaders\Spine-Skeleton-TintBlack.shader" />
+    <None Include="Assets\Spine\spine-unity\Shaders\Spine-Skeleton.shader" />
+    <None Include="Assets\Spine\spine-unity\Shaders\Spine-SkeletonLit.shader" />
+    <None Include="Assets\Spine\spine-unity\Shaders\Utility\Hidden-Spine-Bones.shader" />
+    <None Include="Assets\Spine\spine-unity\Shaders\Utility\HiddenPass.shader" />
+    <None Include="Assets\Spine\spine-unity\version.txt" />
+    <None Include="Assets\StreamingAssets\build_info.txt" />
+    <None Include="Assets\XLua\CHANGELOG.txt" />
+    <None Include="Assets\XLua\Coroutine\Resources\cs_coroutine.lua.txt" />
+    <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
+    <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
+    <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
+    <None Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaRegisterGCM.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
+    <None Include="Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+    <None Include="Assets\XLua\pl\Date.lua.txt" />
+    <None Include="Assets\XLua\pl\List.lua.txt" />
+    <None Include="Assets\XLua\pl\Map.lua.txt" />
+    <None Include="Assets\XLua\pl\MultiMap.lua.txt" />
+    <None Include="Assets\XLua\pl\OrderedMap.lua.txt" />
+    <None Include="Assets\XLua\pl\Set.lua.txt" />
+    <None Include="Assets\XLua\pl\app.lua.txt" />
+    <None Include="Assets\XLua\pl\array2d.lua.txt" />
+    <None Include="Assets\XLua\pl\class.lua.txt" />
+    <None Include="Assets\XLua\pl\compat.lua.txt" />
+    <None Include="Assets\XLua\pl\comprehension.lua.txt" />
+    <None Include="Assets\XLua\pl\config.lua.txt" />
+    <None Include="Assets\XLua\pl\data.lua.txt" />
+    <None Include="Assets\XLua\pl\dir.lua.txt" />
+    <None Include="Assets\XLua\pl\file.lua.txt" />
+    <None Include="Assets\XLua\pl\func.lua.txt" />
+    <None Include="Assets\XLua\pl\import_into.lua.txt" />
+    <None Include="Assets\XLua\pl\init.lua.txt" />
+    <None Include="Assets\XLua\pl\input.lua.txt" />
+    <None Include="Assets\XLua\pl\lapp.lua.txt" />
+    <None Include="Assets\XLua\pl\lexer.lua.txt" />
+    <None Include="Assets\XLua\pl\luabalanced.lua.txt" />
+    <None Include="Assets\XLua\pl\operator.lua.txt" />
+    <None Include="Assets\XLua\pl\path.lua.txt" />
+    <None Include="Assets\XLua\pl\permute.lua.txt" />
+    <None Include="Assets\XLua\pl\pretty.lua.txt" />
+    <None Include="Assets\XLua\pl\seq.lua.txt" />
+    <None Include="Assets\XLua\pl\sip.lua.txt" />
+    <None Include="Assets\XLua\pl\strict.lua.txt" />
+    <None Include="Assets\XLua\pl\stringio.lua.txt" />
+    <None Include="Assets\XLua\pl\stringx.lua.txt" />
+    <None Include="Assets\XLua\pl\tablex.lua.txt" />
+    <None Include="Assets\XLua\pl\template.lua.txt" />
+    <None Include="Assets\XLua\pl\test.lua.txt" />
+    <None Include="Assets\XLua\pl\text.lua.txt" />
+    <None Include="Assets\XLua\pl\types.lua.txt" />
+    <None Include="Assets\XLua\pl\url.lua.txt" />
+    <None Include="Assets\XLua\pl\utils.lua.txt" />
+    <None Include="Assets\XLua\pl\xml.lua.txt" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

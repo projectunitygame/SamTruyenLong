@@ -1,0 +1,251 @@
+
+Farm.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 933, 286
+  size: 64, 76
+  orig: 64, 76
+  offset: 0, 0
+  index: -1
+Board
+  rotate: false
+  xy: 647, 891
+  size: 316, 131
+  orig: 316, 131
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 383, 729
+  size: 262, 293
+  orig: 262, 293
+  offset: 0, 0
+  index: -1
+Buuton_Farm
+  rotate: false
+  xy: 2, 432
+  size: 379, 590
+  orig: 379, 590
+  offset: 0, 0
+  index: -1
+Eyes_L
+  rotate: true
+  xy: 383, 432
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+Eyes_R
+  rotate: false
+  xy: 403, 432
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+F
+  rotate: true
+  xy: 499, 398
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 383, 590
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 647, 752
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 383, 451
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 691, 562
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 837, 701
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 830, 562
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 499, 56
+  size: 86, 77
+  orig: 86, 77
+  offset: 0, 0
+  index: -1
+Mao_Ga_01
+  rotate: false
+  xy: 933, 213
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+Mao_Ga_02
+  rotate: false
+  xy: 499, 9
+  size: 82, 45
+  orig: 82, 45
+  offset: 0, 0
+  index: -1
+Mao_Ga_03
+  rotate: false
+  xy: 933, 141
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+Mao_Ga_04
+  rotate: true
+  xy: 98, 10
+  size: 30, 78
+  orig: 30, 78
+  offset: 0, 0
+  index: -1
+Mao_Ga_05
+  rotate: true
+  xy: 2, 2
+  size: 38, 94
+  orig: 38, 94
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: true
+  xy: 2, 42
+  size: 388, 259
+  orig: 388, 259
+  offset: 0, 0
+  index: -1
+R
+  rotate: false
+  xy: 965, 945
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1
+Thunder_01
+  rotate: true
+  xy: 263, 234
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_02
+  rotate: true
+  xy: 263, 36
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_03
+  rotate: true
+  xy: 573, 531
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_04
+  rotate: false
+  xy: 691, 444
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_05
+  rotate: true
+  xy: 573, 333
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_06
+  rotate: false
+  xy: 691, 326
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_07
+  rotate: true
+  xy: 889, 364
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_08
+  rotate: true
+  xy: 381, 234
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_09
+  rotate: true
+  xy: 381, 36
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_10
+  rotate: true
+  xy: 499, 135
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_11
+  rotate: false
+  xy: 617, 208
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_12
+  rotate: false
+  xy: 617, 90
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_13
+  rotate: true
+  xy: 815, 128
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1
+Thunder_14
+  rotate: false
+  xy: 815, 10
+  size: 196, 116
+  orig: 196, 116
+  offset: 0, 0
+  index: -1

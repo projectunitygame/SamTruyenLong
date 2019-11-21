@@ -1,0 +1,110 @@
+{
+"skeleton": { "hash": "TXxnQUCHaWdLd+a+EmcIbsb4ALw", "spine": "3.7.91", "width": 145, "height": 175.37 },
+"bones": [
+	{ "name": "root", "x": 1.95, "y": 8.19 },
+	{ "name": "Jackpot", "parent": "root", "x": 1.1, "y": 0.05 },
+	{ "name": "Jackpot2_effect_1", "parent": "Jackpot", "x": 0.37, "y": -3.12 },
+	{ "name": "Jackpot2_effect_2", "parent": "Jackpot", "x": 0.5, "y": -2.71 },
+	{ "name": "Jackpot2_text", "parent": "Jackpot", "x": 0.69, "y": -2.47 }
+],
+"slots": [
+	{ "name": "viking_0006s_0003_Effect_Jackpot_2", "bone": "Jackpot2_effect_2", "attachment": "viking_0006s_0003_Effect_Jackpot_2" },
+	{ "name": "viking_0006s_0002_Effect_Jackpot_1", "bone": "Jackpot2_effect_1", "attachment": "viking_0006s_0002_Effect_Jackpot_1" },
+	{ "name": "viking_0006s_0001_Jackpot", "bone": "Jackpot", "attachment": "viking_0006s_0001_Jackpot" }
+],
+"skins": {
+	"default": {
+		"viking_0006s_0001_Jackpot": {
+			"viking_0006s_0001_Jackpot": { "x": -0.01, "y": -1.23, "rotation": -0.01, "width": 104, "height": 114 }
+		},
+		"viking_0006s_0002_Effect_Jackpot_1": {
+			"viking_0006s_0002_Effect_Jackpot_1": { "x": 5.21, "y": -6.49, "width": 145, "height": 144 }
+		},
+		"viking_0006s_0003_Effect_Jackpot_2": {
+			"viking_0006s_0003_Effect_Jackpot_2": { "x": 1.6, "y": -23.77, "width": 127, "height": 173 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"viking_0006s_0002_Effect_Jackpot_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
+			"viking_0006s_0003_Effect_Jackpot_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Jackpot2_effect_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": -30 },
+					{ "time": 0.3333, "angle": -60 },
+					{ "time": 0.5, "angle": -90 },
+					{ "time": 0.6667, "angle": -120 },
+					{ "time": 0.8333, "angle": -150 },
+					{ "time": 1, "angle": 180 },
+					{ "time": 1.1667, "angle": 150 },
+					{ "time": 1.3333, "angle": 120 },
+					{ "time": 1.5, "angle": 90 },
+					{ "time": 1.6667, "angle": 60 },
+					{ "time": 1.8333, "angle": 30 },
+					{ "time": 2, "angle": 0 }
+				]
+			},
+			"Jackpot2_effect_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": 30 },
+					{ "time": 0.3333, "angle": 60 },
+					{ "time": 0.5, "angle": 90 },
+					{ "time": 0.6667, "angle": 120 },
+					{ "time": 0.8333, "angle": 150 },
+					{ "time": 1, "angle": 180 },
+					{ "time": 1.1667, "angle": -150 },
+					{ "time": 1.3333, "angle": -120 },
+					{ "time": 1.5, "angle": -90 },
+					{ "time": 1.6667, "angle": -60 },
+					{ "time": 1.8333, "angle": -30 },
+					{ "time": 2, "angle": 0 }
+				]
+			},
+			"Jackpot2_text": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.2, "y": 1.2 },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.2, "y": 1.2 },
+					{ "time": 2, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -179.89, "y": 0 }
+				]
+			},
+			"Jackpot": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.1, "y": 1.1 },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.1, "y": 1.1 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

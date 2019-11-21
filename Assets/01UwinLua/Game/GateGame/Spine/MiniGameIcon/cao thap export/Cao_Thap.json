@@ -1,0 +1,257 @@
+{
+"skeleton": { "hash": "GTNXwGXp/prTRgn8TRz+pNq/OaU", "spine": "3.7.91", "width": 416.47, "height": 352.03, "images": "./images/", "audio": "E:/job/Casino/Animation/Icon_button/Cao_Thap" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Button_Cao_Thap", "parent": "root", "length": 67.4, "rotation": 89.39, "x": 1.49, "y": -136.61 },
+	{ "name": "Icon", "parent": "Button_Cao_Thap", "x": 159.53, "y": 10.21 },
+	{ "name": "Card", "parent": "Button_Cao_Thap", "length": 80.53, "rotation": -50.59, "x": 144.07, "y": -56.6 },
+	{ "name": "Cao", "parent": "Button_Cao_Thap", "length": 35.61, "rotation": 2.69, "x": 58.55, "y": 75.13 },
+	{ "name": "Arrow_Up", "parent": "Cao", "length": 52.42, "rotation": -0.67, "x": 97.53, "y": 82.56 },
+	{ "name": "Thap", "parent": "Button_Cao_Thap", "length": 46.59, "rotation": -0.19, "x": 61.62, "y": -91.77 },
+	{ "name": "Arrow_Down", "parent": "Thap", "length": 58.88, "rotation": 0.8, "x": 161.6, "y": 198.3 },
+	{ "name": "Thunder_01", "parent": "Cao", "x": 6.68, "y": -1.87 },
+	{ "name": "Thunder_1", "parent": "Thap", "rotation": 2.88, "x": 16.71, "y": -0.09 },
+	{
+		"name": "Spark",
+		"parent": "Button_Cao_Thap",
+		"rotation": -89.39,
+		"x": 230.59,
+		"y": 118.14,
+		"scaleX": 1.43,
+		"scaleY": 1.43
+	}
+],
+"slots": [
+	{ "name": "Button_Cao_Thap", "bone": "Button_Cao_Thap", "attachment": "Button_Cao_Thap" },
+	{ "name": "Card", "bone": "Card", "attachment": "Card" },
+	{ "name": "Icon", "bone": "Icon", "attachment": "Icon" },
+	{ "name": "Arrow_Up", "bone": "Arrow_Up", "attachment": "Arrow_Up" },
+	{ "name": "Arrow_Down", "bone": "Arrow_Down", "attachment": "Arrow_Down" },
+	{ "name": "Mask", "bone": "root", "attachment": "Mask" },
+	{ "name": "Thap", "bone": "Thap", "attachment": "Thap" },
+	{ "name": "Cao", "bone": "Cao", "attachment": "Cao" },
+	{ "name": "Thunder_01", "bone": "Thunder_01", "attachment": "Thunder_01", "blend": "additive" },
+	{ "name": "Thunder_1", "bone": "Thunder_1", "attachment": "Thunder_01", "blend": "additive" },
+	{ "name": "Spark_01", "bone": "Spark", "attachment": "Spark_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Arrow_Down": {
+			"Arrow_Down": { "x": 23.18, "y": 0.72, "rotation": -90, "width": 62, "height": 80 }
+		},
+		"Arrow_Up": {
+			"Arrow_Up": { "x": 26.09, "y": 1.14, "rotation": -91.41, "width": 62, "height": 80 }
+		},
+		"Button_Cao_Thap": {
+			"Button_Cao_Thap": { "x": 116.65, "y": 4.08, "rotation": -89.39, "width": 383, "height": 314 }
+		},
+		"Cao": {
+			"Cao": { "x": 9.9, "y": -3.53, "rotation": -92.08, "width": 130, "height": 57 }
+		},
+		"Card": {
+			"Card": { "x": 40.43, "y": -13.6, "rotation": -38.8, "width": 187, "height": 215 }
+		},
+		"Icon": {
+			"Icon": { "x": -2.41, "y": -2.7, "rotation": -89.39, "width": 209, "height": 241 }
+		},
+		"Mask": {
+			"Mask": { "x": 7.65, "y": -55.92, "width": 327, "height": 98 }
+		},
+		"Spark_01": {
+			"Spark_01": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_02": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_03": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_04": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_05": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_06": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_07": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_08": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_09": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_10": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_11": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_12": { "color": "fff970ff", "x": -12.76, "y": -7.16, "width": 126, "height": 126 },
+			"Spark_13": { "color": "fff970ff", "x": -9.67, "y": -5.61, "width": 126, "height": 126 }
+		},
+		"Thap": {
+			"Thap": { "x": 27.89, "y": 9.65, "rotation": -89.2, "width": 163, "height": 71 }
+		},
+		"Thunder_01": {
+			"Thunder_01": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_02": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_03": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_04": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_05": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_06": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_07": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_08": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_09": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_10": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_11": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_12": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_13": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_14": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 }
+		},
+		"Thunder_1": {
+			"Thunder_01": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_02": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_03": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_04": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_05": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_06": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_07": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_08": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_09": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_10": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_11": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_12": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_13": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 },
+			"Thunder_14": { "x": 20.65, "y": -2.43, "rotation": -92.08, "width": 196, "height": 116 }
+		}
+	}
+},
+"animations": {
+	"Cao_Thap": {
+		"slots": {
+			"Spark_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.5333, "name": "Spark_02" },
+					{ "time": 0.5667, "name": "Spark_03" },
+					{ "time": 0.6, "name": "Spark_04" },
+					{ "time": 0.6333, "name": "Spark_05" },
+					{ "time": 0.6667, "name": "Spark_06" },
+					{ "time": 0.7, "name": "Spark_07" },
+					{ "time": 0.7333, "name": "Spark_08" },
+					{ "time": 0.7667, "name": "Spark_09" },
+					{ "time": 0.8, "name": "Spark_10" },
+					{ "time": 0.8333, "name": "Spark_11" },
+					{ "time": 0.8667, "name": "Spark_12" },
+					{ "time": 0.9, "name": "Spark_13" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"Thunder_01": {
+				"attachment": [
+					{ "time": 0.0333, "name": "Thunder_02" },
+					{ "time": 0.0667, "name": "Thunder_03" },
+					{ "time": 0.1, "name": "Thunder_04" },
+					{ "time": 0.1333, "name": "Thunder_05" },
+					{ "time": 0.1667, "name": "Thunder_06" },
+					{ "time": 0.2, "name": "Thunder_07" },
+					{ "time": 0.2333, "name": "Thunder_08" },
+					{ "time": 0.2667, "name": "Thunder_09" },
+					{ "time": 0.3, "name": "Thunder_10" },
+					{ "time": 0.3333, "name": "Thunder_11" },
+					{ "time": 0.3667, "name": "Thunder_12" },
+					{ "time": 0.4, "name": "Thunder_13" },
+					{ "time": 0.4333, "name": "Thunder_14" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"Thunder_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.5667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.5667, "name": "Thunder_02" },
+					{ "time": 0.6, "name": "Thunder_03" },
+					{ "time": 0.6333, "name": "Thunder_04" },
+					{ "time": 0.6667, "name": "Thunder_05" },
+					{ "time": 0.7, "name": "Thunder_06" },
+					{ "time": 0.7333, "name": "Thunder_07" },
+					{ "time": 0.7667, "name": "Thunder_08" },
+					{ "time": 0.8, "name": "Thunder_09" },
+					{ "time": 0.8333, "name": "Thunder_10" },
+					{ "time": 0.8667, "name": "Thunder_11" },
+					{ "time": 0.9, "name": "Thunder_12" },
+					{ "time": 0.9333, "name": "Thunder_13" },
+					{ "time": 0.9667, "name": "Thunder_14" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Cao": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 27.77,
+						"y": 0.3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"Thap": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": -17.64,
+						"y": -0.19,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"Icon": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 2.32,
+						"y": 0.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"Card": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 1.86,
+						"y": 0.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 5.57,
+						"y": 0.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1.86, "y": 0.02 }
+				]
+			}
+		}
+	}
+}
+}

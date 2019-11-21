@@ -1,0 +1,55 @@
+
+Tarzan_Du_Day.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tar_Arm_L
+  rotate: false
+  xy: 533, 333
+  size: 171, 149
+  orig: 171, 149
+  offset: 0, 0
+  index: -1
+Tar_Arm_R
+  rotate: true
+  xy: 533, 245
+  size: 86, 173
+  orig: 86, 173
+  offset: 0, 0
+  index: -1
+Tar_Body
+  rotate: false
+  xy: 2, 170
+  size: 529, 312
+  orig: 529, 312
+  offset: 0, 0
+  index: -1
+Tar_Day_01
+  rotate: false
+  xy: 2, 38
+  size: 538, 130
+  orig: 538, 130
+  offset: 0, 0
+  index: -1
+Tar_Day_02
+  rotate: true
+  xy: 2, 2
+  size: 34, 559
+  orig: 34, 559
+  offset: 0, 0
+  index: -1
+Tar_Hair
+  rotate: false
+  xy: 706, 363
+  size: 173, 119
+  orig: 173, 119
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 881, 431
+  size: 74, 51
+  orig: 74, 51
+  offset: 0, 0
+  index: -1

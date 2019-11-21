@@ -1,0 +1,27 @@
+
+Can_Gat_MiniPoker.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Ball
+  rotate: true
+  xy: 134, 30
+  size: 74, 81
+  orig: 74, 81
+  offset: 0, 0
+  index: -1
+Images/Than
+  rotate: true
+  xy: 2, 46
+  size: 58, 130
+  orig: 58, 130
+  offset: 0, 0
+  index: -1
+Images/Truc
+  rotate: true
+  xy: 2, 2
+  size: 42, 80
+  orig: 42, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+samtruyen.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ALL-BG-AVENGER-SLOT-3_0003_MINE-STONE-copy
+  rotate: false
+  xy: 2, 2
+  size: 157, 84
+  orig: 157, 84
+  offset: 0, 0
+  index: -1
+ALL-BG-AVENGER-SLOT-3_0009_MINE-STONE
+  rotate: false
+  xy: 2, 88
+  size: 211, 152
+  orig: 211, 152
+  offset: 0, 0
+  index: -1

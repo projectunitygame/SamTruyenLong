@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "46XYIoyQMLt3w030nMitkOkctWs", "spine": "3.7.91", "width": 79.77, "height": 257.82, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Images/Truc", "parent": "root", "x": 1.6, "y": -30.57 },
+	{ "name": "Images/Than", "parent": "root", "length": 120.12, "rotation": 80.33, "x": -0.53, "y": 2.35 },
+	{ "name": "Images/Ball", "parent": "Images/Than", "rotation": -80.33, "x": 155.13, "y": 0.04, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "Images/Truc", "bone": "Images/Truc", "attachment": "Images/Truc" },
+	{ "name": "Images/Than", "bone": "Images/Than", "attachment": "Images/Than" },
+	{ "name": "Images/Ball", "bone": "Images/Ball", "attachment": "Images/Ball" },
+	{ "name": "Images/Spin_machine", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"Images/Ball": {
+			"Images/Ball": { "x": -3.72, "y": -2.38, "width": 74, "height": 81 }
+		},
+		"Images/Than": {
+			"Images/Than": {
+				"type": "mesh",
+				"uvs": [ 1, 0.08908, 0.85562, 0.16868, 0.61387, 0.88905, 0.62594, 1, 0.38606, 1, 0.10819, 1, 0.1448, 0.87252, 0.45808, 0.13418, 0.26739, 0.10683, 0.31506, 0, 1, 0, 0.40155, 0.88213, 0.68914, 0.15277 ],
+				"triangles": [ 12, 7, 9, 9, 10, 12, 8, 9, 7, 10, 1, 12, 0, 1, 10, 11, 6, 7, 2, 11, 7, 12, 2, 7, 1, 2, 12, 4, 6, 11, 5, 6, 4, 4, 11, 2, 3, 4, 2 ],
+				"vertices": [ 119.19, -16.11, 107.58, -9.59, 12.91, -11.5, -1.19, -14.61, -3.53, -0.9, -6.24, 14.99, 10.45, 15.68, 108.13, 13.89, 109.77, 25.39, 123.93, 25, 130.6, -14.16, 11.73, 0.79, 108, 0.27 ],
+				"hull": 11,
+				"edges": [ 18, 20, 18, 16, 16, 14, 14, 12, 12, 10, 8, 10, 6, 8, 6, 4, 4, 2, 0, 20, 2, 0 ],
+				"width": 58,
+				"height": 130
+			}
+		},
+		"Images/Truc": {
+			"Images/Truc": { "x": -1.6, "y": 6.14, "width": 42, "height": 80 }
+		}
+	}
+},
+"animations": {
+	"Can_Gat_MiniPoker": {
+		"bones": {
+			"Images/Than": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 2.85,
+						"y": -43.32,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.367,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"Images/Than": {
+					"Images/Than": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 0.1667,
+							"offset": 4,
+							"vertices": [ 21.60368, 1.87501, 21.60368, 1.87501, 17.81847, 1.26496, 22.97326, -3.26559, 23.87744, -3.02239, 0, 0, 0, 0, 0, 0, 0, 0, 10.8997, 0.83224 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 0.3333 }
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,223 @@
+
+Button_Tai_Xiu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Be
+  rotate: false
+  xy: 558, 671
+  size: 200, 145
+  orig: 200, 145
+  offset: 0, 0
+  index: -1
+Button_Tai_Xiu
+  rotate: false
+  xy: 2, 687
+  size: 257, 325
+  orig: 257, 325
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: true
+  xy: 979, 898
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+Spark_1
+  rotate: true
+  xy: 2, 390
+  size: 295, 194
+  orig: 295, 194
+  offset: 0, 0
+  index: -1
+Spark_2
+  rotate: false
+  xy: 261, 818
+  size: 295, 194
+  orig: 295, 194
+  offset: 0, 0
+  index: -1
+Spark_3
+  rotate: true
+  xy: 2, 93
+  size: 295, 194
+  orig: 295, 194
+  offset: 0, 0
+  index: -1
+Spark_4
+  rotate: false
+  xy: 558, 818
+  size: 295, 194
+  orig: 295, 194
+  offset: 0, 0
+  index: -1
+Spark_5
+  rotate: false
+  xy: 261, 622
+  size: 295, 194
+  orig: 295, 194
+  offset: 0, 0
+  index: -1
+Tai
+  rotate: false
+  xy: 198, 644
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+Thunder_01
+  rotate: true
+  xy: 855, 818
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_02
+  rotate: false
+  xy: 760, 694
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_03
+  rotate: false
+  xy: 198, 498
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_04
+  rotate: false
+  xy: 198, 374
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_05
+  rotate: true
+  xy: 394, 426
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_06
+  rotate: false
+  xy: 198, 250
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_07
+  rotate: false
+  xy: 198, 126
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_08
+  rotate: true
+  xy: 394, 230
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_09
+  rotate: false
+  xy: 558, 547
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_10
+  rotate: false
+  xy: 518, 423
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_11
+  rotate: false
+  xy: 518, 299
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_12
+  rotate: false
+  xy: 518, 175
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_13
+  rotate: true
+  xy: 394, 34
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_14
+  rotate: false
+  xy: 198, 2
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_15
+  rotate: false
+  xy: 518, 51
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_16
+  rotate: true
+  xy: 714, 351
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_17
+  rotate: true
+  xy: 714, 155
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Thunder_18
+  rotate: false
+  xy: 714, 31
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+Xi_Ngau_1
+  rotate: false
+  xy: 87, 23
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+Xi_Ngau_2
+  rotate: false
+  xy: 760, 588
+  size: 111, 104
+  orig: 111, 104
+  offset: 0, 0
+  index: -1
+Xi_Ngau_3
+  rotate: false
+  xy: 2, 15
+  size: 83, 76
+  orig: 83, 76
+  offset: 0, 0
+  index: -1
+Xiu
+  rotate: true
+  xy: 979, 942
+  size: 70, 43
+  orig: 70, 43
+  offset: 0, 0
+  index: -1

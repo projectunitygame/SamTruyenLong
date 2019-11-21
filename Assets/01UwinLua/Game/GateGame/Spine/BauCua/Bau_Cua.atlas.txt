@@ -1,0 +1,104 @@
+
+Bau_Cua.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bau
+  rotate: false
+  xy: 2, 95
+  size: 117, 63
+  orig: 117, 63
+  offset: 0, 0
+  index: -1
+Button_Bau_Cua
+  rotate: false
+  xy: 434, 180
+  size: 384, 262
+  orig: 384, 262
+  offset: 0, 0
+  index: -1
+Cua
+  rotate: true
+  xy: 866, 561
+  size: 113, 50
+  orig: 113, 50
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 866, 513
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+Icon_Bau
+  rotate: false
+  xy: 820, 220
+  size: 178, 222
+  orig: 178, 222
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: true
+  xy: 866, 676
+  size: 334, 78
+  orig: 334, 78
+  offset: 0, 0
+  index: -1
+Spark_1
+  rotate: false
+  xy: 2, 728
+  size: 430, 282
+  orig: 430, 282
+  offset: 0, 0
+  index: -1
+Spark_2
+  rotate: false
+  xy: 2, 444
+  size: 430, 282
+  orig: 430, 282
+  offset: 0, 0
+  index: -1
+Spark_3
+  rotate: false
+  xy: 434, 728
+  size: 430, 282
+  orig: 430, 282
+  offset: 0, 0
+  index: -1
+Spark_4
+  rotate: false
+  xy: 2, 160
+  size: 430, 282
+  orig: 430, 282
+  offset: 0, 0
+  index: -1
+Spark_5
+  rotate: false
+  xy: 434, 444
+  size: 430, 282
+  orig: 430, 282
+  offset: 0, 0
+  index: -1
+Xi_Ngau_01
+  rotate: false
+  xy: 2, 2
+  size: 80, 91
+  orig: 80, 91
+  offset: 0, 0
+  index: -1
+Xi_Ngau_02
+  rotate: false
+  xy: 946, 948
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+Xi_Ngau_03
+  rotate: false
+  xy: 121, 104
+  size: 61, 54
+  orig: 61, 54
+  offset: 0, 0
+  index: -1

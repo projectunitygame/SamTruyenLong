@@ -1,0 +1,97 @@
+
+Sam_Loc.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 379, 126
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+Button_Sam_Loc
+  rotate: false
+  xy: 2, 195
+  size: 432, 294
+  orig: 432, 294
+  offset: 0, 0
+  index: -1
+C
+  rotate: false
+  xy: 923, 432
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+Card
+  rotate: false
+  xy: 436, 311
+  size: 181, 178
+  orig: 181, 178
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: false
+  xy: 775, 369
+  size: 146, 120
+  orig: 146, 120
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 221, 4
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+L
+  rotate: true
+  xy: 619, 314
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 221, 47
+  size: 63, 56
+  orig: 63, 56
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 2, 105
+  size: 375, 88
+  orig: 375, 88
+  offset: 0, 0
+  index: -1
+O
+  rotate: false
+  xy: 436, 237
+  size: 57, 72
+  orig: 57, 72
+  offset: 0, 0
+  index: -1
+Pilow
+  rotate: false
+  xy: 2, 2
+  size: 217, 101
+  orig: 217, 101
+  offset: 0, 0
+  index: -1
+Queen
+  rotate: false
+  xy: 619, 355
+  size: 154, 134
+  orig: 154, 134
+  offset: 0, 0
+  index: -1
+S
+  rotate: false
+  xy: 495, 252
+  size: 43, 57
+  orig: 43, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+commingsoon.png
+size: 292,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 106
+  size: 182, 183
+  orig: 182, 183
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 2, 2
+  size: 150, 102
+  orig: 150, 102
+  offset: 0, 0
+  index: -1
+sao
+  rotate: false
+  xy: 186, 251
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

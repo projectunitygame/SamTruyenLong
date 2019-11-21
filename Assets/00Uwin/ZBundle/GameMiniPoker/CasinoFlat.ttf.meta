@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6e9bca78e18630b49a78256b2578e96d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Casino Flat
+  fontNames:
+  - Casino Flat
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 212e1abc21a1f5e488b88be1e5b8173c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

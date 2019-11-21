@@ -1,0 +1,118 @@
+
+TLMN_Solo.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Banner
+  rotate: false
+  xy: 2, 2
+  size: 100, 62
+  orig: 100, 62
+  offset: 0, 0
+  index: -1
+Button_TLMN_Solo
+  rotate: false
+  xy: 2, 243
+  size: 384, 262
+  orig: 384, 262
+  offset: 0, 0
+  index: -1
+Card_01
+  rotate: false
+  xy: 746, 343
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+Card_02
+  rotate: true
+  xy: 572, 189
+  size: 146, 175
+  orig: 146, 175
+  offset: 0, 0
+  index: -1
+Card_03
+  rotate: true
+  xy: 568, 337
+  size: 168, 176
+  orig: 168, 176
+  offset: 0, 0
+  index: -1
+Card_04
+  rotate: false
+  xy: 388, 336
+  size: 178, 169
+  orig: 178, 169
+  offset: 0, 0
+  index: -1
+Card_05
+  rotate: false
+  xy: 388, 183
+  size: 182, 151
+  orig: 182, 151
+  offset: 0, 0
+  index: -1
+Card_06
+  rotate: false
+  xy: 749, 203
+  size: 178, 138
+  orig: 178, 138
+  offset: 0, 0
+  index: -1
+Dua_Than
+  rotate: false
+  xy: 929, 408
+  size: 80, 97
+  orig: 80, 97
+  offset: 0, 0
+  index: -1
+Effect
+  rotate: false
+  xy: 929, 328
+  size: 76, 78
+  orig: 76, 78
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 929, 272
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: false
+  xy: 749, 91
+  size: 154, 110
+  orig: 154, 110
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 2, 132
+  size: 340, 109
+  orig: 340, 109
+  offset: 0, 0
+  index: -1
+Solo
+  rotate: false
+  xy: 104, 19
+  size: 102, 45
+  orig: 102, 45
+  offset: 0, 0
+  index: -1
+TL
+  rotate: false
+  xy: 2, 66
+  size: 238, 64
+  orig: 238, 64
+  offset: 0, 0
+  index: -1
+Trail
+  rotate: false
+  xy: 242, 68
+  size: 82, 62
+  orig: 82, 62
+  offset: 0, 0
+  index: -1

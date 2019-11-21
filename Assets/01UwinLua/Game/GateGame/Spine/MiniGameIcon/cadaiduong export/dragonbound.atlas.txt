@@ -1,0 +1,34 @@
+
+dragonbound.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon
+  rotate: true
+  xy: 316, 74
+  size: 415, 162
+  orig: 415, 162
+  offset: 0, 0
+  index: -1
+khungicon
+  rotate: false
+  xy: 2, 176
+  size: 312, 313
+  orig: 312, 313
+  offset: 0, 0
+  index: -1
+nhanvat
+  rotate: true
+  xy: 2, 2
+  size: 172, 210
+  orig: 172, 210
+  offset: 0, 0
+  index: -1
+sao1
+  rotate: false
+  xy: 214, 113
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1

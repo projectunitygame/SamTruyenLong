@@ -1,0 +1,273 @@
+{
+"skeleton": { "hash": "GjTgAXaOAx+vkMQCe+jLJIujGVE", "spine": "3.7.91", "width": 480, "height": 366, "images": "./images/", "audio": "E:/job/Casino/Animation/Icon_button/TLMN_Solo" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Button_TLMN_Solo", "parent": "root", "length": 125.17, "rotation": 91.3, "x": 0.21, "y": -138.96 },
+	{ "name": "TL", "parent": "Button_TLMN_Solo", "length": 52.03, "x": 93.19, "y": 42.41 },
+	{ "name": "Solo", "parent": "Button_TLMN_Solo", "length": 42.25, "x": 40.77, "y": -120.79 },
+	{ "name": "Dua_Than", "parent": "Button_TLMN_Solo", "rotation": -37.8, "x": 62.62, "y": -133.45 },
+	{ "name": "Effect", "parent": "Dua_Than", "x": 106.5, "y": 79.35 },
+	{ "name": "Trail", "parent": "Effect", "x": -0.79, "y": -17.94 },
+	{ "name": "Hat", "parent": "Button_TLMN_Solo", "x": 159.94, "y": 3.27 },
+	{ "name": "Card", "parent": "Button_TLMN_Solo", "x": 123.6, "y": -7.92 },
+	{ "name": "Card_01", "parent": "Card", "length": 117.82, "rotation": -18.58, "x": 36.11, "y": -13.85 },
+	{ "name": "Card_02", "parent": "Card", "length": 176.55, "rotation": 21.07, "x": 8.56, "y": -28.18 },
+	{ "name": "Card_03", "parent": "Card", "length": 180.89, "rotation": 36.71, "x": 10.99, "y": -20.56 },
+	{ "name": "Card_04", "parent": "Card", "length": 187.87, "rotation": 44.77, "x": 9.26, "y": -17.36 },
+	{ "name": "Card_05", "parent": "Card", "length": 191.01, "rotation": 62.5, "x": 11.09, "y": -16.05 },
+	{ "name": "Card_06", "parent": "Card", "length": 190, "rotation": 72.72, "x": 9.35, "y": -13.31 },
+	{ "name": "Glow", "parent": "Button_TLMN_Solo", "x": 61.55, "y": 89.04 },
+	{ "name": "Glow2", "parent": "Button_TLMN_Solo", "x": 248.44, "y": 180.96, "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "Button_TLMN_Solo", "bone": "Button_TLMN_Solo", "attachment": "Button_TLMN_Solo" },
+	{ "name": "Card_06", "bone": "Card_06", "attachment": "Card_06" },
+	{ "name": "Card_05", "bone": "Card_05", "attachment": "Card_05" },
+	{ "name": "Card_04", "bone": "Card_04", "attachment": "Card_04" },
+	{ "name": "Card_03", "bone": "Card_03", "attachment": "Card_03" },
+	{ "name": "Card_02", "bone": "Card_02", "attachment": "Card_02" },
+	{ "name": "Banner", "bone": "root", "attachment": "Banner" },
+	{ "name": "Card_01", "bone": "Card_01", "attachment": "Card_01" },
+	{ "name": "Hat", "bone": "Hat", "attachment": "Hat" },
+	{ "name": "Dua_Than", "bone": "Dua_Than", "attachment": "Dua_Than" },
+	{ "name": "Effect", "bone": "Effect", "attachment": "Effect" },
+	{ "name": "Trail", "bone": "Trail", "attachment": "Trail" },
+	{ "name": "Mask", "bone": "root", "attachment": "Mask" },
+	{ "name": "TL", "bone": "TL", "attachment": "TL" },
+	{ "name": "Solo", "bone": "Solo", "attachment": "Solo" },
+	{ "name": "Glow", "bone": "Glow", "attachment": "Glow" },
+	{ "name": "Glow2", "bone": "Glow2", "attachment": "Glow" }
+],
+"skins": {
+	"default": {
+		"Banner": {
+			"Banner": { "x": 82.13, "y": -4.58, "width": 125, "height": 77 }
+		},
+		"Button_TLMN_Solo": {
+			"Button_TLMN_Solo": { "x": 120.59, "y": 7.84, "rotation": -91.3, "width": 480, "height": 327 }
+		},
+		"Card_01": {
+			"Card_01": { "x": 68.86, "y": -27.05, "rotation": -72.72, "width": 226, "height": 202 }
+		},
+		"Card_02": {
+			"Card_02": { "x": 86.81, "y": -0.41, "rotation": -112.37, "width": 182, "height": 219 }
+		},
+		"Card_03": {
+			"Card_03": { "x": 89.01, "y": -7.39, "rotation": -128.01, "width": 210, "height": 220 }
+		},
+		"Card_04": {
+			"Card_04": { "x": 95.99, "y": -3.31, "rotation": -136.07, "width": 222, "height": 211 }
+		},
+		"Card_05": {
+			"Card_05": { "x": 101.1, "y": -6.17, "rotation": -153.8, "width": 227, "height": 189 }
+		},
+		"Card_06": {
+			"Card_06": { "x": 98.2, "y": -7.74, "rotation": -164.02, "width": 223, "height": 172 }
+		},
+		"Dua_Than": {
+			"Dua_Than": { "x": 51.71, "y": 37.4, "rotation": -91.3, "width": 100, "height": 121 }
+		},
+		"Effect": {
+			"Effect": { "x": 0.17, "y": -0.69, "rotation": -91.3, "width": 95, "height": 97 }
+		},
+		"Glow": {
+			"Glow": { "x": 0.36, "y": -0.35, "rotation": -91.3, "width": 67, "height": 68 }
+		},
+		"Glow2": {
+			"Glow": { "x": 0.36, "y": -0.35, "rotation": -91.3, "width": 67, "height": 68 }
+		},
+		"Hat": {
+			"Hat": { "x": 21.22, "y": 7.2, "rotation": -91.3, "width": 192, "height": 138 }
+		},
+		"Mask": {
+			"Mask": { "x": -0.87, "y": -38.08, "width": 425, "height": 136 }
+		},
+		"Solo": {
+			"Solo": { "x": 18.4, "y": 0.99, "rotation": -91.3, "width": 128, "height": 56 }
+		},
+		"TL": {
+			"TL": { "x": 33.61, "y": -3.21, "rotation": -91.3, "width": 297, "height": 80 }
+		},
+		"Trail": {
+			"Trail": { "x": -25.7, "y": -33.15, "rotation": -91.3, "width": 103, "height": 78 }
+		}
+	}
+},
+"animations": {
+	"TLMN_Solo": {
+		"slots": {
+			"Effect": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"Glow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffffff" }
+				]
+			},
+			"Glow2": {
+				"color": [
+					{ "time": 0, "color": "ffffff7f" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffff7f" }
+				]
+			},
+			"Trail": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0, 1, 0.66, 1 ]
+					},
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Effect": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 },
+					{ "time": 0.5, "angle": 42.38 }
+				]
+			},
+			"Dua_Than": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.467, 0, 1, 0.01 ]
+					},
+					{ "time": 0.5, "angle": 37.41 },
+					{ "time": 0.5667, "angle": 22.19 },
+					{ "time": 0.6333, "angle": 37.41 },
+					{ "time": 0.7, "angle": 22.19 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1667, "x": 18.72, "y": -0.43, "curve": "stepped" },
+					{ "time": 0.7, "x": 18.72, "y": -0.43 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"Hat": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": -2.03 },
+					{ "time": 0.5667, "angle": 0 },
+					{ "time": 0.6333, "angle": -2.03, "curve": "stepped" },
+					{ "time": 0.7, "angle": -2.03 },
+					{ "time": 0.7667, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.95, "y": 0.95 },
+					{ "time": 0.5667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0.95, "y": 0.95 },
+					{ "time": 0.7, "x": 1.2, "y": 1.2 },
+					{ "time": 0.7667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 },
+					{ "time": 1.6333, "x": 1.15, "y": 1.15 },
+					{ "time": 1.7667, "x": 1, "y": 1 },
+					{ "time": 1.9, "x": 1.15, "y": 1.15 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"Card_01": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "x": 1, "y": 1 }
+				]
+			},
+			"Card_03": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 1 },
+					{ "time": 1.1667, "x": 1, "y": 1 }
+				]
+			},
+			"Card_02": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 1 },
+					{ "time": 0.9, "x": 1, "y": 1 }
+				]
+			},
+			"Card_05": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 1 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Card_04": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 1.0667, "x": 0, "y": 1 },
+					{ "time": 1.2333, "x": 1, "y": 1 }
+				]
+			},
+			"Card_06": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 1.2333, "x": 0, "y": 1 },
+					{ "time": 1.4, "x": 1, "y": 1 }
+				]
+			},
+			"Card": {
+				"scale": [
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 2.1667, "x": 0, "y": 0 }
+				]
+			},
+			"TL": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"x": 0.919,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2.1667, "x": 1, "y": 1 }
+				]
+			},
+			"Solo": {
+				"translate": [
+					{ "time": 0.6667, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 13.19, "y": -0.3 },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6667, "x": 0.876, "y": 1 },
+					{ "time": 0.8333, "x": 1.1, "y": 1 },
+					{ "time": 1, "x": 0.876, "y": 1 },
+					{ "time": 1.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

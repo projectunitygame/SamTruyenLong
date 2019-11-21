@@ -1,0 +1,160 @@
+
+Thuy_Cung.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Balloon
+  rotate: false
+  xy: 2, 3
+  size: 105, 103
+  orig: 105, 103
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 108
+  size: 167, 325
+  orig: 167, 325
+  offset: 0, 0
+  index: -1
+Button_Thuy_Cung
+  rotate: false
+  xy: 2, 435
+  size: 531, 587
+  orig: 531, 587
+  offset: 0, 0
+  index: -1
+Da_Dau
+  rotate: false
+  xy: 935, 933
+  size: 56, 89
+  orig: 56, 89
+  offset: 0, 0
+  index: -1
+Eyes_Close_P
+  rotate: false
+  xy: 333, 118
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+Eyes_Close_Tr
+  rotate: true
+  xy: 150, 83
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+Fish_Head
+  rotate: false
+  xy: 171, 220
+  size: 242, 213
+  orig: 242, 213
+  offset: 0, 0
+  index: -1
+Hand_P
+  rotate: true
+  xy: 109, 45
+  size: 61, 39
+  orig: 61, 39
+  offset: 0, 0
+  index: -1
+Hand_Up
+  rotate: true
+  xy: 415, 222
+  size: 46, 106
+  orig: 46, 106
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 333, 137
+  size: 72, 81
+  orig: 72, 81
+  offset: 0, 0
+  index: -1
+Layer 103
+  rotate: false
+  xy: 854, 483
+  size: 116, 143
+  orig: 116, 143
+  offset: 0, 0
+  index: -1
+Layer 104
+  rotate: true
+  xy: 171, 2
+  size: 107, 100
+  orig: 107, 100
+  offset: 0, 0
+  index: -1
+Mao_01
+  rotate: true
+  xy: 415, 270
+  size: 163, 123
+  orig: 163, 123
+  offset: 0, 0
+  index: -1
+Mao_02
+  rotate: true
+  xy: 171, 111
+  size: 107, 160
+  orig: 107, 160
+  offset: 0, 0
+  index: -1
+Mao_03
+  rotate: false
+  xy: 540, 350
+  size: 114, 121
+  orig: 114, 121
+  offset: 0, 0
+  index: -1
+Mao_04
+  rotate: false
+  xy: 656, 363
+  size: 112, 108
+  orig: 112, 108
+  offset: 0, 0
+  index: -1
+Mao_05
+  rotate: false
+  xy: 273, 59
+  size: 51, 50
+  orig: 51, 50
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: true
+  xy: 535, 473
+  size: 549, 317
+  orig: 549, 317
+  offset: 0, 0
+  index: -1
+Mat_P
+  rotate: false
+  xy: 540, 308
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+Thuy_Cung
+  rotate: true
+  xy: 854, 628
+  size: 394, 79
+  orig: 394, 79
+  offset: 0, 0
+  index: -1
+Trong_Mat_P
+  rotate: false
+  xy: 770, 444
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+Trong_Mat_Tr
+  rotate: false
+  xy: 993, 989
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1

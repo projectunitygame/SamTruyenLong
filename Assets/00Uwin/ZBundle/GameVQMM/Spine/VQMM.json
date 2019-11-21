@@ -1,0 +1,286 @@
+{
+"skeleton": { "hash": "TlD/G3l4vxtCTU48gWFcHCIE33M", "spine": "3.7.91", "width": 765, "height": 847, "images": "./images/", "audio": "E:/job/Casino/Animation/VQMM" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "VQMM", "parent": "root", "x": -1.13, "y": 1.08 },
+	{ "name": "Ball", "parent": "root", "x": 1.74, "y": 358.98 },
+	{ "name": "Ball2", "parent": "root", "x": 96.69, "y": 346.05 },
+	{ "name": "Ball3", "parent": "root", "x": 180.13, "y": 311.89 },
+	{ "name": "Ball4", "parent": "root", "x": 254.49, "y": 255.18 },
+	{ "name": "Ball5", "parent": "root", "x": 308.14, "y": 190.58 },
+	{ "name": "Ball6", "parent": "root", "x": 346.67, "y": 98.35 },
+	{ "name": "Ball7", "parent": "root", "x": 357.5, "y": 3.09 },
+	{ "name": "Ball8", "parent": "root", "x": 345.81, "y": -87.84 },
+	{ "name": "Ball9", "parent": "root", "x": 318.09, "y": -164.05 },
+	{ "name": "Ball10", "parent": "root", "x": 265.55, "y": -240.26 },
+	{ "name": "Ball11", "parent": "root", "x": 191.77, "y": -295.25 },
+	{ "name": "Ball12", "parent": "root", "x": 103.38, "y": -340.06 },
+	{ "name": "Ball13", "parent": "root", "x": 1.93, "y": -350.5 },
+	{ "name": "Ball14", "parent": "root", "x": -97.67, "y": -338.19 },
+	{ "name": "Ball15", "parent": "root", "x": -187.93, "y": -296.05 },
+	{ "name": "Ball16", "parent": "root", "x": -262.27, "y": -238.52 },
+	{ "name": "Ball17", "parent": "root", "x": -315.67, "y": -162.71 },
+	{ "name": "Ball18", "parent": "root", "x": -343.4, "y": -86.89 },
+	{ "name": "Ball19", "parent": "root", "x": -354.61, "y": 4.26 },
+	{ "name": "Ball20", "parent": "root", "x": -343.99, "y": 98.66 },
+	{ "name": "Ball21", "parent": "root", "x": -304.75, "y": 191.59 },
+	{ "name": "Ball22", "parent": "root", "x": -251.66, "y": 255.2 },
+	{ "name": "Ball23", "parent": "root", "x": -175.95, "y": 313.44 },
+	{ "name": "Ball24", "parent": "root", "x": -93.97, "y": 346.82 }
+],
+"slots": [
+	{ "name": "VQMM", "bone": "VQMM", "attachment": "VQMM" },
+	{ "name": "Ball", "bone": "Ball", "attachment": "Ball" },
+	{ "name": "Ball2", "bone": "Ball2" },
+	{ "name": "Ball3", "bone": "Ball3" },
+	{ "name": "Ball4", "bone": "Ball4" },
+	{ "name": "Ball5", "bone": "Ball5" },
+	{ "name": "Ball6", "bone": "Ball6" },
+	{ "name": "Ball7", "bone": "Ball7" },
+	{ "name": "Ball8", "bone": "Ball8" },
+	{ "name": "Ball9", "bone": "Ball9" },
+	{ "name": "Ball10", "bone": "Ball10" },
+	{ "name": "Ball11", "bone": "Ball11" },
+	{ "name": "Ball12", "bone": "Ball12" },
+	{ "name": "Ball13", "bone": "Ball13" },
+	{ "name": "Ball14", "bone": "Ball14" },
+	{ "name": "Ball15", "bone": "Ball15" },
+	{ "name": "Ball16", "bone": "Ball16" },
+	{ "name": "Ball17", "bone": "Ball17" },
+	{ "name": "Ball18", "bone": "Ball18" },
+	{ "name": "Ball19", "bone": "Ball19" },
+	{ "name": "Ball20", "bone": "Ball20" },
+	{ "name": "Ball21", "bone": "Ball21" },
+	{ "name": "Ball22", "bone": "Ball22" },
+	{ "name": "Ball23", "bone": "Ball23" },
+	{ "name": "Ball24", "bone": "Ball24" }
+],
+"skins": {
+	"default": {
+		"Ball": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball10": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball11": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball12": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball13": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball14": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball15": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball16": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball17": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball18": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball19": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball2": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball20": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball21": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball22": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball23": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball24": {
+			"Ball": { "x": 0.6, "y": -0.79, "width": 33, "height": 33 }
+		},
+		"Ball3": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball4": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball5": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball6": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball7": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball8": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"Ball9": {
+			"Ball": { "x": 0.6, "y": -0.04, "width": 33, "height": 33 }
+		},
+		"VQMM": {
+			"VQMM": { "x": 3.47, "y": 42.87, "width": 765, "height": 847 }
+		}
+	}
+},
+"animations": {
+	"VQMM": {
+		"slots": {
+			"Ball": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"Ball2": {
+				"attachment": [
+					{ "time": 0.1, "name": "Ball" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"Ball3": {
+				"attachment": [
+					{ "time": 0.2, "name": "Ball" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"Ball4": {
+				"attachment": [
+					{ "time": 0.3, "name": "Ball" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"Ball5": {
+				"attachment": [
+					{ "time": 0.4, "name": "Ball" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"Ball6": {
+				"attachment": [
+					{ "time": 0.5, "name": "Ball" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"Ball7": {
+				"attachment": [
+					{ "time": 0.6, "name": "Ball" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"Ball8": {
+				"attachment": [
+					{ "time": 0.7, "name": "Ball" },
+					{ "time": 0.7667, "name": null }
+				]
+			},
+			"Ball9": {
+				"attachment": [
+					{ "time": 0.8, "name": "Ball" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"Ball10": {
+				"attachment": [
+					{ "time": 0.9, "name": "Ball" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"Ball11": {
+				"attachment": [
+					{ "time": 1, "name": "Ball" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"Ball12": {
+				"attachment": [
+					{ "time": 1.1, "name": "Ball" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"Ball13": {
+				"attachment": [
+					{ "time": 1.2, "name": "Ball" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"Ball14": {
+				"attachment": [
+					{ "time": 1.3, "name": "Ball" },
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"Ball15": {
+				"attachment": [
+					{ "time": 1.4, "name": "Ball" },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"Ball16": {
+				"attachment": [
+					{ "time": 1.5, "name": "Ball" },
+					{ "time": 1.6, "name": null }
+				]
+			},
+			"Ball17": {
+				"attachment": [
+					{ "time": 1.6, "name": "Ball" },
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"Ball18": {
+				"attachment": [
+					{ "time": 1.7, "name": "Ball" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"Ball19": {
+				"attachment": [
+					{ "time": 1.8, "name": "Ball" },
+					{ "time": 1.9, "name": null }
+				]
+			},
+			"Ball20": {
+				"attachment": [
+					{ "time": 1.9, "name": "Ball" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Ball21": {
+				"attachment": [
+					{ "time": 2, "name": "Ball" },
+					{ "time": 2.1, "name": null }
+				]
+			},
+			"Ball22": {
+				"attachment": [
+					{ "time": 2.1, "name": "Ball" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"Ball23": {
+				"attachment": [
+					{ "time": 2.2, "name": "Ball" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"Ball24": {
+				"attachment": [
+					{ "time": 2.3, "name": "Ball" },
+					{ "time": 2.4, "name": null }
+				]
+			}
+		}
+	}
+}
+}

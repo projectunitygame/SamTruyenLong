@@ -1,0 +1,90 @@
+
+Xoc_Dia.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bowl
+  rotate: false
+  xy: 484, 340
+  size: 193, 168
+  orig: 193, 168
+  offset: 0, 0
+  index: -1
+Button_Xoc_Dia
+  rotate: false
+  xy: 2, 179
+  size: 480, 329
+  orig: 480, 329
+  offset: 0, 0
+  index: -1
+Coin_01
+  rotate: false
+  xy: 484, 185
+  size: 154, 153
+  orig: 154, 153
+  offset: 0, 0
+  index: -1
+Coin_02
+  rotate: true
+  xy: 890, 369
+  size: 139, 102
+  orig: 139, 102
+  offset: 0, 0
+  index: -1
+Glow_01
+  rotate: true
+  xy: 421, 86
+  size: 91, 90
+  orig: 91, 90
+  offset: 0, 0
+  index: -1
+Glow_02
+  rotate: false
+  xy: 640, 302
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+Hat_01
+  rotate: false
+  xy: 679, 351
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+Hat_02
+  rotate: false
+  xy: 285, 37
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+Hat_03
+  rotate: false
+  xy: 726, 351
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 2, 79
+  size: 417, 98
+  orig: 417, 98
+  offset: 0, 0
+  index: -1
+Plate
+  rotate: false
+  xy: 679, 399
+  size: 209, 109
+  orig: 209, 109
+  offset: 0, 0
+  index: -1
+Text copy
+  rotate: false
+  xy: 2, 2
+  size: 281, 75
+  orig: 281, 75
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "wC1FrCS5yHiuAt0dNjZUoz4On88", "spine": "3.7.91", "width": 196, "height": 223.06, "images": "./images/", "audio": "E:/job/Casino/Animation/Mini_Game_Icon" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Mini_Game", "parent": "root", "x": -0.56, "y": 4.32 },
+	{ "name": "Mini", "parent": "root", "x": -1.24, "y": 19.03 },
+	{ "name": "Game", "parent": "root", "x": -1.58, "y": -22.81 }
+],
+"slots": [
+	{ "name": "Mini_Game", "bone": "Mini_Game", "attachment": "Mini_Game" },
+	{ "name": "Shine", "bone": "root", "attachment": "Shine" },
+	{ "name": "Mini", "bone": "Mini", "attachment": "Mini" },
+	{ "name": "Game", "bone": "Game", "attachment": "Game" }
+],
+"skins": {
+	"default": {
+		"Game": {
+			"Game": { "x": 0.23, "y": 3.87, "width": 112, "height": 38 }
+		},
+		"Mini": {
+			"Mini": { "x": 0.39, "y": 1.03, "width": 83, "height": 38 }
+		},
+		"Mini_Game": {
+			"Mini_Game": { "x": 0.56, "y": -4.32, "width": 196, "height": 196 }
+		},
+		"Shine": {
+			"Shine": { "x": -6.35, "y": 28.56, "width": 158, "height": 193 }
+		}
+	}
+},
+"animations": {
+	"MiniGame_Icon": {
+		"bones": {
+			"Mini_Game": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -90 },
+					{ "time": 0.6667, "angle": -180 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.6667, "angle": -90 },
+					{ "time": 2, "angle": -180 },
+					{ "time": 2.3333, "angle": 90 },
+					{ "time": 2.6667, "angle": 0 }
+				]
+			},
+			"Mini": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.913, "y": 0.913 },
+					{ "time": 1.0667, "x": 1.014, "y": 1.014 },
+					{ "time": 1.1333, "x": 0.899, "y": 0.899 },
+					{ "time": 1.2, "x": 1.014, "y": 1.014 },
+					{ "time": 1.2667, "x": 0.899, "y": 0.899 },
+					{ "time": 1.3333, "x": 1.333, "y": 1.333 },
+					{ "time": 1.4, "x": 1, "y": 1 },
+					{ "time": 1.4667, "x": 1.155, "y": 1.155 },
+					{ "time": 1.5333, "x": 1, "y": 1 }
+				]
+			},
+			"Game": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.1667, "x": 0.897, "y": 0.897 },
+					{ "time": 1.2333, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.897, "y": 0.897 },
+					{ "time": 1.3667, "x": 1, "y": 1 },
+					{ "time": 1.4333, "x": 0.897, "y": 0.897 },
+					{ "time": 1.5, "x": 1.476, "y": 1.476 },
+					{ "time": 1.5667, "x": 1, "y": 1 },
+					{ "time": 1.6333, "x": 1.164, "y": 1.164 },
+					{ "time": 1.7, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

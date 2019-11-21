@@ -1,0 +1,76 @@
+
+rongthan.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1s
+  rotate: false
+  xy: 542, 243
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+2s
+  rotate: false
+  xy: 1123, 822
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+3s
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+4s
+  rotate: false
+  xy: 423, 99
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+5s
+  rotate: false
+  xy: 634, 243
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+6s
+  rotate: false
+  xy: 1123, 730
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+7s
+  rotate: false
+  xy: 1215, 822
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 542, 335
+  size: 579, 577
+  orig: 579, 577
+  offset: 0, 0
+  index: -1
+rong
+  rotate: false
+  xy: 2, 191
+  size: 538, 721
+  orig: 538, 721
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 94
+  size: 419, 95
+  orig: 419, 95
+  offset: 0, 0
+  index: -1

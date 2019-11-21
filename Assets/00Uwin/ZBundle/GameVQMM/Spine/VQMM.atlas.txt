@@ -1,0 +1,20 @@
+
+VQMM.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ball
+  rotate: false
+  xy: 2, 2
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+VQMM
+  rotate: false
+  xy: 2, 37
+  size: 765, 847
+  orig: 765, 847
+  offset: 0, 0
+  index: -1

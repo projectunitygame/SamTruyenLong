@@ -1,0 +1,62 @@
+
+3_Cay.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: true
+  xy: 484, 185
+  size: 56, 74
+  orig: 56, 74
+  offset: 0, 0
+  index: -1
+Button_3Cay copy
+  rotate: false
+  xy: 2, 178
+  size: 480, 327
+  orig: 480, 327
+  offset: 0, 0
+  index: -1
+Cay
+  rotate: false
+  xy: 2, 2
+  size: 140, 74
+  orig: 140, 74
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: false
+  xy: 484, 243
+  size: 321, 262
+  orig: 321, 262
+  offset: 0, 0
+  index: -1
+Coin_01
+  rotate: false
+  xy: 807, 396
+  size: 113, 109
+  orig: 113, 109
+  offset: 0, 0
+  index: -1
+Coin_02
+  rotate: false
+  xy: 807, 281
+  size: 109, 113
+  orig: 109, 113
+  offset: 0, 0
+  index: -1
+Glow copy
+  rotate: false
+  xy: 922, 437
+  size: 67, 68
+  orig: 67, 68
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 2, 78
+  size: 417, 98
+  orig: 417, 98
+  offset: 0, 0
+  index: -1

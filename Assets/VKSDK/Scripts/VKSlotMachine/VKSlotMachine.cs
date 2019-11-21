@@ -262,48 +262,10 @@ public class VKSlotMachine : MonoBehaviour
                     isRunning = false;
                     break;
                 case MachineType.SLOT_25_LINE:
-                    {
-                        bool isHaveWildCard = false;
-                        for (int i = 0; i < colums.Count; i++)
-                        {
-                            if (colums[i].items.Any(a => a.iconIndex == idItemWill))
-                            {
-                                isHaveWildCard = true;
-                                gWillCards[i].SetActive(true);
-                            }
-                        }
-
-                        if (isHaveWildCard)
-                        {
-                            if (CallBackShowWildItem != null)
-                            {
-                                CallBackShowWildItem.Invoke();
-                            }
-
-                            yield return new WaitForSeconds(0.7f);
-                            for (int i = 0; i < gWillCards.Count; i++)
-                            {
-                                if (gWillCards[i].activeSelf)
-                                {
-                                    foreach (var uiItem in colums[i].items)
-                                    {
-                                        if (uiItem.iconIndex != idItemBonus && uiItem.iconIndex != idItemFree && uiItem.iconIndex != idItemJackpot)
-                                        {
-                                            uiItem.SetItem(GetIconByIndex(idItemWill), GetAnimatorByIndex(idItemWill), GetSkeletonByIndex(idItemWill), idItemWill);
-                                        }
-                                    }
-                                }
-                            }
 
                             isRunning = false;
-                            yield return new WaitForSeconds(1.5f);
-                            gWillCards.ForEach(a => a.SetActive(false));
-                        }
-                        else
-                        {
-                            isRunning = false;
-                        }
-                    }
+ 
+                    
                     break;
                 case MachineType.SLOT_25_LINE_2:
                     {

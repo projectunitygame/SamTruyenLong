@@ -74,7 +74,7 @@ public class SRSSlot25LineAccount
     {
         if (TotalGoldUsed > 0 && PricePoolMultiply>0)
         {
-            return (int)(TotalGoldUsed * 0.01f * PricePoolMultiply);
+            return TotalGoldUsed * PricePoolMultiply / 100;
         }
 
         return 0;
@@ -160,7 +160,7 @@ public class SRSSlot25LineResultSpin
     {
         if (TotalGoldUsed > 0 && PricePoolMultiply > 0)
         {
-            return (int)(TotalGoldUsed * 0.01f * PricePoolMultiply);
+            return TotalGoldUsed * PricePoolMultiply / 100;
         }
 
         return 0;

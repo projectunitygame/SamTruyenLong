@@ -107,7 +107,7 @@ public class LGameSlot25Line : UILayer
     {
         base.StartLayer();
         _machine.CallBackLineSpinDone = OnLineSpinDone;
-        _machine.CallBackShowWildItem = OnShowWildItem;
+        _machine.CallBackShowWildItem = null;
     }
 
     public override void ShowLayer()
@@ -762,20 +762,7 @@ public class LGameSlot25Line : UILayer
         string json = LitJson.JsonMapper.ToJson(data[0]);
         SRSSlot25LineResultSpin result = JsonUtility.FromJson<SRSSlot25LineResultSpin>(json);
         Debug.LogError(json);
-        if(result.GetCollectedPieces().Count == 9)
-        {
-            miniGameController.ReloadMiniGame(result.GetCollectedPieces(), result.GetTimeMiniGame());
-            miniGameTotalMoney.text = result.GetPrizePool().ToString();
-            miniGameMoneyDes.text = "(" + result.TotalGoldUsed + "x" + result.PricePoolMultiply + ")";
-            Database.Instance.UpdateUserGold(new MAccountInfoUpdateGold(accountInfo.Gold + result.GetPrizePool()));
-            _server.HubCallCleanMiniGameData(accountInfo.AvatarID);
-        }
-        else
-        {
-            miniGameController.ReloadMiniGame(result.GetCollectedPieces(), result.GetTimeMiniGame());
-            miniGameTotalMoney.text = result.GetPrizePool().ToString();
-            miniGameMoneyDes.text = "(" + result.TotalGoldUsed + "x" + result.PricePoolMultiply + ")";
-        }
+        
         // event
         if (result.ResponseStatus != (int)GameResponseStatus.SUCCESS)
         {
@@ -877,7 +864,20 @@ public class LGameSlot25Line : UILayer
         {
             Database.Instance.UpdateUserMoney(moneyType, result.Balance);
         }
-
+        if (result.GetCollectedPieces().Count == 9)
+        {
+            _server.HubCallCleanMiniGameData(accountInfo.AvatarID);
+            miniGameController.ReloadMiniGame(result.GetCollectedPieces(), result.GetTimeMiniGame());
+            miniGameTotalMoney.text = result.GetPrizePool().ToString();
+            miniGameMoneyDes.text = "(" + result.TotalGoldUsed + "x" + result.PricePoolMultiply + ")";
+            Database.Instance.UpdateUserGold(new MAccountInfoUpdateGold(accountInfo.Gold + result.GetPrizePool()));
+        }
+        else
+        {
+            miniGameController.ReloadMiniGame(result.GetCollectedPieces(), result.GetTimeMiniGame());
+            miniGameTotalMoney.text = result.GetPrizePool().ToString();
+            miniGameMoneyDes.text = "(" + result.TotalGoldUsed + "x" + result.PricePoolMultiply + ")";
+        }
         if ((result.PrizeLines != null && result.PrizeLines.Count > 0) || result.IsBonusGame())
         {
             // show line win

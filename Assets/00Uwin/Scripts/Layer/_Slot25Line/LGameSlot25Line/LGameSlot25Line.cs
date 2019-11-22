@@ -475,7 +475,7 @@ public class LGameSlot25Line : UILayer
         isSieuToc = !isSieuToc;
 
         btSieuToc.SetupAll(!isSieuToc);
-        _machine.SetSpeed(isSieuToc ? 3 : 1);
+        _machine.SetSpeed(isSieuToc ? 4 : 2);
     }
 
     public void ButtonLieuClickListener()

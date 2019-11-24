@@ -1,0 +1,41 @@
+
+Icon-3Cay.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Icon-3Cay-P/1
+  rotate: false
+  xy: 2, 50
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+Icon-3Cay-P/2 1
+  rotate: false
+  xy: 196, 168
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+Icon-3Cay-P/2 2
+  rotate: false
+  xy: 196, 206
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+Icon-3Cay-P/2 3
+  rotate: false
+  xy: 2, 2
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+Icon-3Cay-P/2 4
+  rotate: false
+  xy: 40, 12
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1

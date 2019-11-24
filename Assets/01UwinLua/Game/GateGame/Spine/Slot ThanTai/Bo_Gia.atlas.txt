@@ -1,97 +1,27 @@
 
 Bo_Gia.png
-size: 1024,1024
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Arm
-  rotate: false
-  xy: 834, 548
-  size: 139, 168
-  orig: 139, 168
-  offset: 0, 0
-  index: -1
-Bo_Gia
+Thần-Thú
   rotate: true
-  xy: 400, 54
-  size: 396, 442
-  orig: 396, 442
+  xy: 298, 237
+  size: 254, 119
+  orig: 254, 119
   offset: 0, 0
   index: -1
-Bo_Gia_Button
+icon-12
   rotate: false
-  xy: 400, 452
-  size: 432, 561
-  orig: 432, 561
+  xy: 2, 197
+  size: 294, 294
+  orig: 294, 294
   offset: 0, 0
   index: -1
-Diamond
-  rotate: true
-  xy: 844, 409
-  size: 137, 131
-  orig: 137, 131
-  offset: 0, 0
-  index: -1
-Eyes_Close_L
-  rotate: false
-  xy: 928, 928
-  size: 28, 10
-  orig: 28, 10
-  offset: 0, 0
-  index: -1
-Eyes_Close_R
-  rotate: false
-  xy: 269, 40
-  size: 14, 11
-  orig: 14, 11
-  offset: 0, 0
-  index: -1
-GLow_01
+khung
   rotate: false
   xy: 2, 2
-  size: 36, 36
-  orig: 36, 36
-  offset: 0, 0
-  index: -1
-Glow_02
-  rotate: false
-  xy: 2, 40
-  size: 265, 339
-  orig: 265, 339
-  offset: 0, 0
-  index: -1
-God_Father
-  rotate: true
-  xy: 269, 159
-  size: 220, 69
-  orig: 220, 69
-  offset: 0, 0
-  index: -1
-Hand
-  rotate: false
-  xy: 269, 53
-  size: 102, 104
-  orig: 102, 104
-  offset: 0, 0
-  index: -1
-Mask_01
-  rotate: true
-  xy: 834, 718
-  size: 295, 92
-  orig: 295, 92
-  offset: 0, 0
-  index: -1
-Mask_02
-  rotate: false
-  xy: 2, 381
-  size: 396, 632
-  orig: 396, 632
-  offset: 0, 0
-  index: -1
-Xet
-  rotate: false
-  xy: 928, 940
-  size: 94, 73
-  orig: 94, 73
+  size: 194, 193
+  orig: 194, 193
   offset: 0, 0
   index: -1

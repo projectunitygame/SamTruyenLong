@@ -1,0 +1,62 @@
+
+tlmnsolo.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Icon TLMN/1
+  rotate: false
+  xy: 2, 27
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+Icon TLMN/2
+  rotate: false
+  xy: 194, 112
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+Icon TLMN/3
+  rotate: true
+  xy: 194, 33
+  size: 77, 97
+  orig: 77, 97
+  offset: 0, 0
+  index: -1
+Icon TLMN/4
+  rotate: true
+  xy: 293, 34
+  size: 76, 97
+  orig: 76, 97
+  offset: 0, 0
+  index: -1
+Icon TLMN/5
+  rotate: false
+  xy: 284, 112
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+Icon TLMN/6
+  rotate: false
+  xy: 374, 171
+  size: 136, 46
+  orig: 136, 46
+  offset: 0, 0
+  index: -1
+Icon TLMN/7
+  rotate: false
+  xy: 2, 2
+  size: 94, 23
+  orig: 94, 23
+  offset: 0, 0
+  index: -1
+Icon TLMN/8
+  rotate: false
+  xy: 374, 145
+  size: 66, 24
+  orig: 66, 24
+  offset: 0, 0
+  index: -1

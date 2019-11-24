@@ -1,0 +1,55 @@
+
+Icon-XocXoc.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 54
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+2 1
+  rotate: false
+  xy: 196, 210
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+3 1
+  rotate: false
+  xy: 196, 210
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+2 2
+  rotate: false
+  xy: 2, 2
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+3 2
+  rotate: false
+  xy: 2, 2
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+2 3
+  rotate: false
+  xy: 37, 16
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+3 3
+  rotate: false
+  xy: 37, 16
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1

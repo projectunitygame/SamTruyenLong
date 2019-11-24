@@ -1,0 +1,41 @@
+
+caothap.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Icon Cong/7-Thien Dia/images/1
+  rotate: false
+  xy: 226, 34
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+Icon Cong/7-Thien Dia/images/2
+  rotate: false
+  xy: 2, 2
+  size: 222, 222
+  orig: 222, 222
+  offset: 0, 0
+  index: -1
+Icon Cong/7-Thien Dia/images/4
+  rotate: false
+  xy: 418, 40
+  size: 95, 32
+  orig: 95, 32
+  offset: 0, 0
+  index: -1
+Icon Cong/7-Thien Dia/images/5
+  rotate: false
+  xy: 622, 177
+  size: 106, 47
+  orig: 106, 47
+  offset: 0, 0
+  index: -1
+Icon Cong/7-Thien Dia/images/6
+  rotate: false
+  xy: 418, 74
+  size: 202, 150
+  orig: 202, 150
+  offset: 0, 0
+  index: -1

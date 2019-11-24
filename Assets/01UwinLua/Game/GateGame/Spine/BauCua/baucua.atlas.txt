@@ -1,0 +1,48 @@
+
+baucua.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Icon-TaiXiu/2
+  rotate: false
+  xy: 394, 163
+  size: 93, 87
+  orig: 93, 87
+  offset: 0, 0
+  index: -1
+Icon-TaiXiu/3
+  rotate: false
+  xy: 394, 74
+  size: 93, 87
+  orig: 93, 87
+  offset: 0, 0
+  index: -1
+Icon-TaiXiu/Taxi/1
+  rotate: false
+  xy: 202, 60
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+Icon-TaiXiu/Taxi/2
+  rotate: false
+  xy: 2, 43
+  size: 198, 207
+  orig: 198, 207
+  offset: 0, 0
+  index: -1
+Icon-TaiXiu/Taxi/5
+  rotate: false
+  xy: 202, 5
+  size: 76, 53
+  orig: 76, 53
+  offset: 0, 0
+  index: -1
+Icon-TaiXiu/Taxi/6
+  rotate: false
+  xy: 2, 2
+  size: 80, 39
+  orig: 80, 39
+  offset: 0, 0
+  index: -1

@@ -1,173 +1,166 @@
 
 GnDragond.png
-size: 1024,512
+size: 1024,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Arm_L
   rotate: false
-  xy: 763, 351
+  xy: 695, 152
   size: 26, 19
   orig: 26, 19
   offset: 0, 0
   index: -1
 Arm_R
   rotate: true
-  xy: 832, 419
+  xy: 350, 161
   size: 21, 15
   orig: 21, 15
   offset: 0, 0
   index: -1
 Body
   rotate: true
-  xy: 854, 453
+  xy: 564, 91
   size: 57, 124
   orig: 57, 124
   offset: 0, 0
   index: -1
 Button_3Cay
   rotate: false
-  xy: 2, 183
-  size: 480, 327
-  orig: 480, 327
+  xy: 372, 62
+  size: 190, 190
+  orig: 190, 190
   offset: 0, 0
   index: -1
 Day_Cuong
   rotate: false
-  xy: 186, 2
+  xy: 2, 2
   size: 34, 27
   orig: 34, 27
   offset: 0, 0
   index: -1
 Dragon_Body
   rotate: false
-  xy: 484, 185
+  xy: 564, 150
   size: 129, 102
   orig: 129, 102
   offset: 0, 0
   index: -1
 Dragon_Head
   rotate: false
-  xy: 484, 289
+  xy: 2, 31
   size: 161, 151
   orig: 161, 151
   offset: 0, 0
   index: -1
 Eyes_Close
   rotate: false
-  xy: 186, 31
+  xy: 957, 202
   size: 43, 50
   orig: 43, 50
   offset: 0, 0
   index: -1
 Eyes_Close_01
   rotate: false
-  xy: 694, 315
+  xy: 38, 15
   size: 10, 14
   orig: 10, 14
   offset: 0, 0
   index: -1
 Eyes_Close_02
   rotate: false
-  xy: 421, 101
+  xy: 766, 176
   size: 12, 16
   orig: 12, 16
   offset: 0, 0
   index: -1
 Foot
-  rotate: false
-  xy: 73, 17
+  rotate: true
+  xy: 830, 198
   size: 54, 64
   orig: 54, 64
   offset: 0, 0
   index: -1
 Glow
   rotate: false
-  xy: 763, 372
+  xy: 281, 114
   size: 67, 68
   orig: 67, 68
   offset: 0, 0
   index: -1
 Gragonboud
   rotate: false
-  xy: 484, 442
+  xy: 2, 184
   size: 368, 68
   orig: 368, 68
   offset: 0, 0
   index: -1
 Hand_L
   rotate: true
-  xy: 647, 297
+  xy: 165, 39
   size: 32, 45
   orig: 32, 45
   offset: 0, 0
   index: -1
 Hand_R
   rotate: false
-  xy: 980, 476
+  xy: 281, 78
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
   index: -1
 Head
   rotate: false
-  xy: 2, 2
+  xy: 695, 173
   size: 69, 79
   orig: 69, 79
   offset: 0, 0
   index: -1
 Item
   rotate: false
-  xy: 222, 2
+  xy: 212, 44
   size: 23, 27
   orig: 23, 27
   offset: 0, 0
   index: -1
 Leg_Down
-  rotate: true
-  xy: 615, 249
+  rotate: false
+  xy: 564, 72
   size: 38, 17
   orig: 38, 17
   offset: 0, 0
   index: -1
 Leg_Up
-  rotate: false
-  xy: 129, 22
+  rotate: true
+  xy: 896, 197
   size: 55, 59
   orig: 55, 59
   offset: 0, 0
   index: -1
-Mask
-  rotate: false
-  xy: 2, 83
-  size: 417, 98
-  orig: 417, 98
-  offset: 0, 0
-  index: -1
 Toon
   rotate: false
-  xy: 647, 331
+  xy: 165, 73
   size: 114, 109
   orig: 114, 109
   offset: 0, 0
   index: -1
 Toon_Eyes_01
-  rotate: true
-  xy: 854, 442
+  rotate: false
+  xy: 318, 96
   size: 9, 16
   orig: 9, 16
   offset: 0, 0
   index: -1
 Toon_Eyes_02
-  rotate: true
-  xy: 73, 5
+  rotate: false
+  xy: 1002, 235
   size: 10, 17
   orig: 10, 17
   offset: 0, 0
   index: -1
 Wing
-  rotate: true
-  xy: 421, 119
+  rotate: false
+  xy: 766, 194
   size: 62, 58
   orig: 62, 58
   offset: 0, 0

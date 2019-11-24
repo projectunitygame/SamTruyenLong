@@ -1,0 +1,62 @@
+
+samsolo.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 47
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+2 1
+  rotate: false
+  xy: 196, 134
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+2 2
+  rotate: true
+  xy: 196, 55
+  size: 77, 97
+  orig: 77, 97
+  offset: 0, 0
+  index: -1
+2 3
+  rotate: false
+  xy: 376, 142
+  size: 76, 97
+  orig: 76, 97
+  offset: 0, 0
+  index: -1
+2 4
+  rotate: false
+  xy: 286, 134
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+loc
+  rotate: false
+  xy: 295, 96
+  size: 47, 36
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
+sam
+  rotate: false
+  xy: 2, 2
+  size: 89, 43
+  orig: 89, 43
+  offset: 0, 0
+  index: -1
+solo
+  rotate: false
+  xy: 454, 214
+  size: 47, 25
+  orig: 47, 25
+  offset: 0, 0
+  index: -1

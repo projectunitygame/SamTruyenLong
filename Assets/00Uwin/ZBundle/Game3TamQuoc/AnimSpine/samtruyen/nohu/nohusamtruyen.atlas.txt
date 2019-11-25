@@ -1,0 +1,492 @@
+
+nohusamtruyen.png
+size: 2010,2010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+InGame/fx/Thunder 2/Comp 1_00530
+  rotate: false
+  xy: 2, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+InGame/fx/Thunder 2/Comp 1_00541
+  rotate: false
+  xy: 644, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+InGame/fx/Thunder 2/Comp 1_00543
+  rotate: false
+  xy: 1286, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+InGame/fx/Thunder 2/Comp 1_00544
+  rotate: true
+  xy: 2, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+InGame/fx/Thunder 2/Comp 1_00553
+  rotate: true
+  xy: 2, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+InGame/fx/Thunder 2/Comp 1_00567
+  rotate: false
+  xy: 2, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N01
+  rotate: true
+  xy: 364, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N02
+  rotate: true
+  xy: 364, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N03
+  rotate: false
+  xy: 644, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N04
+  rotate: false
+  xy: 1286, 1286
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N05
+  rotate: true
+  xy: 726, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N06
+  rotate: true
+  xy: 726, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N07
+  rotate: true
+  xy: 1088, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N08
+  rotate: true
+  xy: 1286, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N09
+  rotate: true
+  xy: 1450, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N10
+  rotate: true
+  xy: 1648, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+nohusamtruyen2.png
+size: 2010,2010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ncoin/rs_No_2/N11
+  rotate: false
+  xy: 2, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N12
+  rotate: false
+  xy: 644, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N13
+  rotate: false
+  xy: 1286, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N14
+  rotate: true
+  xy: 2, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N15
+  rotate: true
+  xy: 2, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N16
+  rotate: false
+  xy: 2, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N17
+  rotate: true
+  xy: 364, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N18
+  rotate: true
+  xy: 364, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N19
+  rotate: false
+  xy: 644, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N20
+  rotate: false
+  xy: 1286, 1286
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N21
+  rotate: true
+  xy: 726, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N22
+  rotate: true
+  xy: 726, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N23
+  rotate: true
+  xy: 1088, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N24
+  rotate: true
+  xy: 1286, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N25
+  rotate: true
+  xy: 1450, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N26
+  rotate: true
+  xy: 1648, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+nohusamtruyen3.png
+size: 2010,2010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ncoin/rs_No_2/N27
+  rotate: false
+  xy: 2, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N28
+  rotate: false
+  xy: 644, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N29
+  rotate: false
+  xy: 1286, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N30
+  rotate: true
+  xy: 2, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N31
+  rotate: true
+  xy: 2, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N32
+  rotate: false
+  xy: 2, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N33
+  rotate: true
+  xy: 364, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N34
+  rotate: true
+  xy: 364, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N35
+  rotate: false
+  xy: 644, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N36
+  rotate: false
+  xy: 1286, 1286
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N37
+  rotate: true
+  xy: 726, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N38
+  rotate: true
+  xy: 726, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N39
+  rotate: true
+  xy: 1088, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N40
+  rotate: true
+  xy: 1286, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N41
+  rotate: true
+  xy: 1450, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N42
+  rotate: true
+  xy: 1648, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+nohusamtruyen4.png
+size: 2010,2010
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ncoin/rs_No_2/N43
+  rotate: false
+  xy: 2, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N44
+  rotate: false
+  xy: 644, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N45
+  rotate: false
+  xy: 1286, 1648
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N46
+  rotate: true
+  xy: 2, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N47
+  rotate: true
+  xy: 2, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N48
+  rotate: false
+  xy: 2, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N49
+  rotate: true
+  xy: 364, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N50
+  rotate: true
+  xy: 364, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N51
+  rotate: false
+  xy: 644, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N52
+  rotate: false
+  xy: 1286, 1286
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N53
+  rotate: true
+  xy: 726, 1006
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N54
+  rotate: true
+  xy: 726, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N55
+  rotate: true
+  xy: 1088, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N56
+  rotate: true
+  xy: 1286, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N57
+  rotate: true
+  xy: 1450, 644
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N58
+  rotate: true
+  xy: 1648, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+nohusamtruyen5.png
+size: 726,726
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ncoin/rs_No_2/N59
+  rotate: false
+  xy: 2, 364
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+Ncoin/rs_No_2/N60
+  rotate: false
+  xy: 2, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1

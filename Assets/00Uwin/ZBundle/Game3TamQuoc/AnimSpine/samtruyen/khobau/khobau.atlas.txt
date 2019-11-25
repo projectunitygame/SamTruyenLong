@@ -1,0 +1,13 @@
+
+khobau.png
+size: 335,333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+khobau
+  rotate: false
+  xy: 2, 71
+  size: 331, 260
+  orig: 331, 260
+  offset: 0, 0
+  index: -1

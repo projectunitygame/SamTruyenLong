@@ -1,0 +1,13 @@
+
+manhghepdau.png
+size: 496,494
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xuathienmanhghep
+  rotate: false
+  xy: 2, 226
+  size: 492, 266
+  orig: 492, 266
+  offset: 0, 0
+  index: -1

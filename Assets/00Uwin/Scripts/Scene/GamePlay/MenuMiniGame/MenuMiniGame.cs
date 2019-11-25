@@ -607,7 +607,7 @@ public class MenuMiniGame : MonoBehaviour
         SignalRController.Instance.CloseServer((int)_config.gameId);
 
         StopAllCoroutines();
-        gTaiXiuStatus.SetActive(false);
+        gTaiXiuStatus.SetActive(true);
     }
     #endregion
 
@@ -778,16 +778,16 @@ public class MenuMiniGame : MonoBehaviour
                 return;
         }
 
-        gTaiXiuStatus.SetActive(false);
-        animTaiXiu.enabled = false;
+        gTaiXiuStatus.SetActive(true);
+        animTaiXiu.enabled = true;
         gTaiXiuStatus.transform.localScale = Vector3.one;
 
-        gTaiStatus.SetActive(false);
-        gXiuStatus.SetActive(false);
+        gTaiStatus.SetActive(true);
+        gXiuStatus.SetActive(true);
 
         if (vkTaiXiuCountDown.gameObject.activeSelf)
             vkTaiXiuCountDown.StopCountDown();
-        vkTaiXiuCountDown.gameObject.SetActive(false);
+        vkTaiXiuCountDown.gameObject.SetActive(true);
 
         switch (_taixiu.CurrentState)
         {
@@ -809,7 +809,7 @@ public class MenuMiniGame : MonoBehaviour
 
     IEnumerator WaitAutoReconnectTaiXiu(float time)
     {
-        gTaiXiuStatus.SetActive(false);
+        gTaiXiuStatus.SetActive(true);
         yield return new WaitForSeconds(time);
         ConnectTaiXiu();
     }

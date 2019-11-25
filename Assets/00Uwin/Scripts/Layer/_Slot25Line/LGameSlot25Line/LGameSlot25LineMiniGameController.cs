@@ -14,11 +14,15 @@ public class LGameSlot25LineMiniGameController : MonoBehaviour {
     {
         if (time.Ticks > 0)
         {
+            textTime.gameObject.SetActive(true);
             timeRemain = new System.DateTime((time.AddHours(4) - DateTime.Now).Ticks);
             if (co == null)
             {
                 co = StartCoroutine(Counter());
             }
+        }
+        else{
+            textTime.gameObject.SetActive(false);
         }
         for (int i = 0; i < allPieces.transform.childCount; i++)
         {

@@ -1,0 +1,13 @@
+
+thangsieulon.png
+size: 461,459
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thangsieulon
+  rotate: false
+  xy: 2, 188
+  size: 457, 269
+  orig: 457, 269
+  offset: 0, 0
+  index: -1

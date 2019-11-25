@@ -77,14 +77,14 @@ public class LViewLobby : UILayer
          RectTransform rectBoxLogined = objHeadLogined.GetComponent<RectTransform>();
         
         rectBoxLogined.anchoredPosition = new Vector2(0,-200);
-        rectBoxLogined.gameObject.SetActive(true);
+        rectBoxLogined.gameObject.SetActive(false);
         //LeanTween.moveLocalY(objHeadLogined,0,1).setEaseOutCirc();
     }
     public override void FirstLoadLayer()
     {
         AddEvent();
 
-        objHeadLogined.SetActive(false);
+        objHeadLogined.SetActive(true);
 
         objHeadPrepareLogin.SetActive(true);
 
@@ -399,7 +399,7 @@ public class LViewLobby : UILayer
 
     public void LoginSuccess()
     {
-        objHeadPrepareLogin.SetActive(false);
+        objHeadPrepareLogin.SetActive(true);
         ShowBoxLogined();
 
         Database.Instance.localData.password = Database.Instance.passTemp;

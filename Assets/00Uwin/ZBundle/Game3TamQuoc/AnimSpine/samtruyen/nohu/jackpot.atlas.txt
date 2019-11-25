@@ -1,0 +1,13 @@
+
+jackpot.png
+size: 586,584
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+txt-jackpot
+  rotate: false
+  xy: 2, 282
+  size: 582, 300
+  orig: 582, 300
+  offset: 0, 0
+  index: -1

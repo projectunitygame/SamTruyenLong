@@ -1,0 +1,20 @@
+
+quaymienphi.png
+size: 556,556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thangsieulon
+  rotate: false
+  xy: 2, 285
+  size: 457, 269
+  orig: 457, 269
+  offset: 0, 0
+  index: -1
+txt-freespin-vi
+  rotate: false
+  xy: 2, 2
+  size: 415, 281
+  orig: 415, 281
+  offset: 0, 0
+  index: -1

@@ -24,6 +24,8 @@ local UILayerKey =
     LMail = "LMail",
     LHistory = "LHistory",
     LVipPoint = "LVipPoint",
+    LGameLuckySpin = "LGameLuckySpin",
+    LGameLuckySpinHistory = "LGameLuckySpinHistory",
 
     LGiftCode = "LGiftCode",
 
@@ -43,9 +45,7 @@ local UILayerKey =
     LGameHighLowStatistics = "LGameHighLowStatistics",
     LGameHighLowHelp = "LGameHighLowHelp",
 
-    LGameLuckySpin = "LGameLuckySpin",
-    LGameLuckySpinHistory = "LGameLuckySpinHistory",
-
+    
     LGameTaiXiu = "LGameTaiXiu",
     LGameTaiXiuStatistic = "LGameTaiXiuStatistic",
     LGameTaiXiuBetInfo = "LGameTaiXiuBetInfo",

@@ -150,6 +150,7 @@ public class LGameSlot25LineLobby : UILayer
 
         roomIdSelected = roomId;
         _server.HubCallPlayNow(moneyType, roomId);
+        Debug.LogError("call "+roomId);
     }
 
     public void ButtonMenuClickListener()
@@ -197,6 +198,7 @@ public class LGameSlot25LineLobby : UILayer
 
         LoadMoney();
         StartCoroutine(WaitToLoadEvent());
+        
     }
 
     public void Reload(int moneyType)
@@ -269,12 +271,15 @@ public class LGameSlot25LineLobby : UILayer
                 }
             }
         }
+        
     }
 
     private IEnumerator WaitToLoadEvent()
     {
         LoadEvent();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(1f);
+        //yield return null;
+        ButtonSelectRoomClickListener(1);
     }
 
     public void LoadSound()

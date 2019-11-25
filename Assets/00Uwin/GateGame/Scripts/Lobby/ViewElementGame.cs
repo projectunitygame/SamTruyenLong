@@ -17,7 +17,6 @@ public class ViewElementGame : MonoBehaviour
     public Image imgProgress;
     public Text txtProgress;
 
-    public VKTextValueChange[] txtQuanityBet;
 
     [Header("Event")]
     public GameObject objAllEvent;
@@ -208,19 +207,15 @@ public class ViewElementGame : MonoBehaviour
 
     public void SetQuantityBet(double bet, int index, float timeRun)
     {
-        if (txtQuanityBet.Length <= 0)
-        {
-            return;
-        }
+
 
         if (gameId == GameId.SLOT_MAFIA && index == 2)
         {
             VKDebug.LogColorRed(bet, "Mafia");
-            txtQuanityBet[index].UpdateNumber(bet);
-            txtQuanityBet[index].SetNumber(bet);
+           
         }
 
-        txtQuanityBet[index].StopValueChange();
+        //txtQuanityBet[index].StopValueChange();
 
         //if (bet - betEnd[index] < betSuggest && bet - betEnd[index] >= 0)
         //{
@@ -237,9 +232,7 @@ public class ViewElementGame : MonoBehaviour
         //    betEnd[index] = bet;
         //}
 
-        txtQuanityBet[index].isMoney = true;
-        txtQuanityBet[index].SetTimeRun(timeRun);
-        txtQuanityBet[index].UpdateNumber(bet);
+    
     }
 
     #region Show Event Jackpot
@@ -283,7 +276,7 @@ public class ViewElementGame : MonoBehaviour
         }
         else
         {
-            objAllEvent.SetActive(true);
+            objAllEvent.SetActive(false);
         }
 
         int maxEvent = 0;

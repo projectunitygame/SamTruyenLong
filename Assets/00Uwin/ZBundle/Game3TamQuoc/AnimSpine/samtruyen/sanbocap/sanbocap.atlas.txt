@@ -1,0 +1,13 @@
+
+sanbocap.png
+size: 419,417
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+txt-bonus-vi
+  rotate: false
+  xy: 2, 134
+  size: 415, 281
+  orig: 415, 281
+  offset: 0, 0
+  index: -1

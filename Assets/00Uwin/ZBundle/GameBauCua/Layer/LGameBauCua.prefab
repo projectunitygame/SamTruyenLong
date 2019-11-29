@@ -7394,8 +7394,8 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 9
-  _API: http://baucua.wingo8.com/
-  _URL: http://baucua.wingo8.com/signalr/negotiate
+  _API: https://baucua.hamvip.club/
+  _URL: https://baucua.hamvip.club/signalr/negotiate
   _HUBNAME: HooHeyHow
   _MAXHISTORY: 100
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}

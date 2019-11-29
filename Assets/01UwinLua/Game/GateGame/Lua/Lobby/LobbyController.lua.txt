@@ -69,7 +69,7 @@ function Show()
 
     -- Get Info New
     if(CS.Database.Instance.islogin) then
-        local url = "http://api.wingo8.com/Account/GetAccountInfo"
+        local url = "https://api.hamvip.club/Account/GetAccountInfo"
         CS.WebServiceController.Instance:SendRequestCodeString("GetAccountInfo",url,nil,0)
     end
 

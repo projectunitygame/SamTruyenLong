@@ -5287,11 +5287,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evn: 2
-  strGetLink: https://script.google.com/macros/s/AKfycbywuNxCPuqAv7GlklkvjvcLFpOYbVT8VFfkz0XqvXN7eo4w8UHD/exec
-  linkResource: http://files.wingo8.com/u1/
-  LinkGetCheck: http://services.wingo8.com/app/fetch
+  strGetLink: https://script.google.com/macros/s/AKfycbxlVrwRPSYB38D8nZTduli0p6tfH0RNcY34zWZw1ZiY/exec
+  linkResource: https://files.hamvip.club/u1/
+  LinkGetCheck: https://services.hamvip.club/app/fetch
   keyUpdate: '"b326b5062b2f0e69046810717534cb09"'
-  verBuild: 7
+  verBuild: 8
   ani: {fileID: 1055761963}
   imgProcess: {fileID: 157504255}
   popupStart: {fileID: 1160215498}

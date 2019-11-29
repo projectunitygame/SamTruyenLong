@@ -308,7 +308,7 @@ public class VKCommon
 
         CultureInfo elGR = CultureInfo.CreateSpecificCulture("el-GR");
         string s = (isAm ? "-" : "") + Math.Truncate(money).ToString("0,0", elGR);
-        return s.Replace(".", ",");
+        return s;
     }
 
     public static string ConvertStringMoney(string money)

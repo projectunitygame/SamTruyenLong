@@ -1,0 +1,13 @@
+
+nhanthuongkhobau.png
+size: 371,369
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nhanthuongkhobau
+  rotate: false
+  xy: 2, 143
+  size: 367, 224
+  orig: 367, 224
+  offset: 0, 0
+  index: -1

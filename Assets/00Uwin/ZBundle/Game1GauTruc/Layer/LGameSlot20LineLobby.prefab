@@ -1231,8 +1231,8 @@ MonoBehaviour:
   isLayerAnimOpenDone: 0
   _config:
     gameId: 1
-    urlApi: http://nongtrai.wingo8.com/
-    urlServer: http://nongtrai.wingo8.com/signalr/negotiate
+    urlApi: https://nongtrai.hamvip.club/
+    urlServer: https://nongtrai.hamvip.club/signalr/negotiate
     hubName: Game1Hub
     pageJackpotSize: 10
     timeWaitNextAuto: 2

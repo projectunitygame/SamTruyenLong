@@ -1,0 +1,27 @@
+
+thanglonst.png
+size: 1170,1170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fulltranh-effect_0000_light1
+  rotate: false
+  xy: 686, 298
+  size: 359, 870
+  orig: 359, 870
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0001_light2
+  rotate: false
+  xy: 2, 319
+  size: 682, 849
+  orig: 682, 849
+  offset: 0, 0
+  index: -1
+thanglon
+  rotate: false
+  xy: 2, 2
+  size: 868, 294
+  orig: 868, 294
+  offset: 0, 0
+  index: -1

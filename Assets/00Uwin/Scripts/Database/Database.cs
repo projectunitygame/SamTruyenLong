@@ -32,6 +32,8 @@ public class Database : MonoBehaviour
     #region Properties
     public const string _fileLocalName = "game.data";
 
+    public List<int> lastSelectLine25Slots = new List<int>{1};
+
     public delegate void UserUpdateGoldEvent(MAccountInfoUpdateGold info);
     public delegate void UserUpdateCoinEvent(MAccountInfoUpdateCoin info);
     public event UserUpdateGoldEvent OnUserUpdateGoldEvent;
@@ -154,6 +156,7 @@ public class Database : MonoBehaviour
         {
             SettingHighQuantity(localData.isHighQuantity);
         }
+        lastSelectLine25Slots = localData.lastSelectLine25Slots;
     }
 
     public void OnApplicationQuit()
@@ -350,6 +353,12 @@ public class Database : MonoBehaviour
     public void SaveMusic(bool isSound)
     {
         localData.isOpenSound = isSound;
+        SaveLocalData();
+    }
+    public void SaveLast25Line(List<int> data)
+    {
+        this.lastSelectLine25Slots = data;
+        localData.lastSelectLine25Slots = data;
         SaveLocalData();
     }
 

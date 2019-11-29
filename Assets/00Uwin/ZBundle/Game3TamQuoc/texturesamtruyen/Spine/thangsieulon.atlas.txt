@@ -1,0 +1,27 @@
+
+thangsieulon.png
+size: 1083,1083
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fulltranh-effect_0000_light1
+  rotate: false
+  xy: 686, 211
+  size: 359, 870
+  orig: 359, 870
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0001_light2
+  rotate: false
+  xy: 2, 232
+  size: 682, 849
+  orig: 682, 849
+  offset: 0, 0
+  index: -1
+thangsieulonst
+  rotate: false
+  xy: 2, 2
+  size: 810, 207
+  orig: 810, 207
+  offset: 0, 0
+  index: -1

@@ -120,6 +120,7 @@ public class UIMiniGameSlot25Line : MonoBehaviour {
         {
             AudioAssistant.Instance.PlaySoundGame(_config.gameId, _config.audioWin);
             btTiepTuc.VKInteractable = result.RemainTurn > 0;
+           
         }
         else
         {

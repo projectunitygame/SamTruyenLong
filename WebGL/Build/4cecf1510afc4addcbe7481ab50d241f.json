@@ -1,0 +1,15 @@
+{
+"companyName": "M68",
+"productName": "M68",
+"dataUrl": "3dcd9bf54c96a603ad51cb9c06506b0f.unityweb",
+"asmCodeUrl": "566ee51e7f55ccecf6e329e2ea30c874.unityweb",
+"asmMemoryUrl": "50116f8c527cbef91acac06de437efe4.unityweb",
+"asmFrameworkUrl": "4e892344b889b2404cff539ac020c35e.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "81ab68d29374b48638bb3d1ef3cc8806.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

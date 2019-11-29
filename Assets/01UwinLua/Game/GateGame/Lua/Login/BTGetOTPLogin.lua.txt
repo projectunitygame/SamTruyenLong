@@ -27,7 +27,7 @@ function AddEvent()
 end
 
 function ClickGetOTPLogin()
-    local url = "http://services.wingo8.com/Security/ReceiveLoginOTP?tokenOTP="
+    local url = "https://services.hamvip.club/Security/ReceiveLoginOTP?tokenOTP="
     url = url .. CS.Database.Instance.tokenOTPLogin
 
     CS.WebServiceController.Instance:SendRequestCodeString("ReceiveLoginOTP",url,nil,0)

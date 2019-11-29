@@ -1,112 +1,112 @@
 {
   "assetbundle": {
-    "link": "http://files.wingo8.com/u1/pub/",
+    "link": "https://files.hamvip.club/u1/pub/",
     "preload": [
       {
         "gid": 0,
         "name": "main-xlua.bundle",
-        "hash": "4059fcae949c0ef1c4a61f5b3fflc336"
+        "hash": "b2d73e1b24583aa714d055f47e56243f"
       },
       {
         "gid": 0,
         "name": "gate.bundle",
-        "hash": "4059ac2e949c0ef1c4a61f0buff1c336"
+        "hash": "41d06b5ffec2e82c5a2a8adcd3f76479"
       },
       {
         "gid": 0,
         "name": "pl.bundle",
-        "hash": "4059fcae949c0ef1c4a61fib8ff1cd14"
+        "hash": "eec6aad5b019298362932cb7456088c6"
       },
       {
         "gid": 0,
         "name": "common.bundle",
-        "hash": "4059fcae949c0ef1c4a61f0bhff1c336"
+        "hash": "1cbb25c01482160d5da06668b7610853"
       },
       {
         "gid": 0,
         "name": "xlua.bundle",
-        "hash": "4059fcae949c0ef1c4a61f5b3lf1cd14"
+        "hash": "4059fcae949c0ef1c4a01f5b3lf1cd14"
       }
     ],
     "asset": [
       {
         "gid": 1,
         "name": "slotnongtrai.bundle",
-        "hash": "14e5ed6d6486a2d6161e196a3649e32c"
+        "hash": "e3e07c3e5fc9773dff128310433cba82"
       },
       {
         "gid": 2,
         "name": "slotmafia.bundle",
-        "hash": "14e5ed6d64n6a2d6161e196a3649e13c"
+        "hash": "53299c28336d12a15db58882924ce4a4"
       },
       {
         "gid": 3,
         "name": "haivuong.bundle",
-        "hash": "14e5ed666486a2d6c11e196a3649e641"
+        "hash": "23cd32f097f2aa0050a1decb209dc225"
       },
       {
         "gid": 8,
         "name": "minipoker.bundle",
-        "hash": "14e5ed666486a2d6c11e596a3649e12c"
+        "hash": "b33e459672fb7029106dc958749121d8"
       },
       {
         "gid": 5,
         "name": "highlow.bundle",
-        "hash": "14e5ed6d6486a2d6c112596a3649e13c"
+        "hash": "71276edf0b730cc370df65958ef7f2b8"
       },
       {
         "gid": 6,
         "name": "vuabao.bundle",
-        "hash": "62a203d865760b86210622ad7e92ca34"
+        "hash": "206b6ed82feb30edc7ae2c92ec3e6cff"
       },
       {
         "gid": 4,
         "name": "taixiu.bundle",
-        "hash": "e30d70a33395dac856152bf807fb7688"
+        "hash": "22496b6565ba1796f322ee6d165fbfa2"
       },
       {
         "gid": 9,
         "name": "baucua.bundle",
-        "hash": "fc4f063a1192fb9ed4132bfc39307f14"
+        "hash": "b90f1818850a850e047c94f9f6c73fb2"
       },
       {
         "gid": 101,
         "name": "luckyspin.bundle",
-        "hash": "b12897c5be86712cf91298e63c95e951"
+        "hash": "70f97ac3622c5136fbdbeb0aa6aa3b4d"
       },
       {
         "gid": 102,
         "name": "xocxoc.bundle",
-        "hash": "4059fcae949c0ef0c4126f5b3ff1cd04"
+        "hash": "38b7fe1b3c3cca0d7dadbcd771ee7e99"
       },
       {
         "gid": 103,
         "name": "bacay.bundle",
-        "hash": "9b60d3a649e8a0dbcb912ec829d0fc1b"
+        "hash": "67a3503fbf4c22f5cc7463b667d3630d"
       },
 	  {
         "gid": 105,
         "name": "tlmn.bundle",
-        "hash": "ab185f0e1cbb2d0e0ce1c2998c359a83"
+        "hash": "0f17461314054dac7c233807f792f070"
       },
 	  {
         "gid": 104,
         "name": "sam.bundle",
-        "hash": "ab185f0e1cbb2d0e0ce1c2998c359a83"
+        "hash": "f47c3e9e72589ff17409e0eb5f069c69"
       }
     ]
   }
   ,
   "taixiu": {
     "gameId": 4,
-    "urlApi": "http://files.wingo8.com/",
-    "urlServer": "http://files.wingo8.com/signalr/negotiate",
+    "urlApi": "https://files.hamvip.club/",
+    "urlServer": "https://files.hamvip.club/signalr/negotiate",
     "hubName": "luckyDice"
   },
   "lobby": {
     "gameId": 0,
-    "urlApi": "http://api.wingo8.com",
-    "urlServer": "http://api.wingo8.com/signalr/negotiate",
+    "urlApi": "https://api.hamvip.club",
+    "urlServer": "https://api.hamvip.club/signalr/negotiate",
     "hubName": "lobbygame"
   }
 }

@@ -13127,9 +13127,9 @@ MonoBehaviour:
   layerKey: 0
   isLayerAnimOpenDone: 0
   _GAMEID: 4
-  _API: http://taxi.wingo8.com/
-  _APIEVENT: http://event.wingo8.com/
-  _URL: http://taxi.wingo8.com/signalr/negotiate/
+  _API: https://taxi.hamvip.club/
+  _APIEVENT: https://event.hamvip.club/
+  _URL: https://taxi.hamvip.club/signalr/negotiate/
   _HUBNAME: luckyDice
   _SCLICK: {fileID: 8300000, guid: 48d7b6a4db3dfd343be732d189d6e180, type: 3}
   _SFAIL: {fileID: 8300000, guid: be690447866e84b43890fb7084adf21c, type: 3}

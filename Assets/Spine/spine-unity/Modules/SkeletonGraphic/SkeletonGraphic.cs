@@ -51,7 +51,11 @@ namespace Spine.Unity {
 		public float timeScale = 1f;
 		public bool freeze;
 		public bool unscaledTime;
-
+		protected override void Start()
+{
+    base.Start();
+    material = new Material(Resources.Load<Shader>("SpineShader/Spine-SkeletonGraphic"));
+}	
 		#if UNITY_EDITOR
 		protected override void OnValidate () {
 			// This handles Scene View preview.

@@ -10,6 +10,7 @@ public class LocalData
     public int idAvatar = 0;
     public bool isActiveSecurityLogin = false;
     public bool isBlockInvitePlay = false;
+    public List<int> lastSelectLine25Slots = new List<int>{1};
 
     //public List<AssetBundleSettingItem> asset;
 

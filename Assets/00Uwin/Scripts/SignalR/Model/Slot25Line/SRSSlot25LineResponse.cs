@@ -138,7 +138,8 @@ public class SRSSlot25LineResultSpin
 
     public string FirstCollectedPieceTime;
     public int PricePoolMultiply;
-    public List<int> GetCollectedPieces()
+     public bool isReciedPieces;    
+     public List<int> GetCollectedPieces()
     {
         if (!string.IsNullOrEmpty(CollectedPieces))
         {

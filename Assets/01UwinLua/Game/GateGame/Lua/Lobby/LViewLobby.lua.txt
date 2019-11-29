@@ -389,7 +389,7 @@ function ClickBtLogout()
     objMenuBottom:SetActive(false);
 
     -- logout Web
-    local url = "http://services.wingo8.com/Account/Signout"
+    local url = "https://services.hamvip.club/Account/Signout"
     CS.WebServiceController.Instance:SendRequestCodeString("Singout",url,nil,0)
 
     CS.AudioAssistant.Instance:Shot(CS.StringHelper.SOUND_GATE_BT);

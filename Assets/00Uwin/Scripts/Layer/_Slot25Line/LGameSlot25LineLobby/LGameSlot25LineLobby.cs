@@ -200,18 +200,6 @@ public class LGameSlot25LineLobby : UILayer
         StartCoroutine(WaitToLoadEvent());
         
     }
-
-    public void Reload(int moneyType)
-    {
-        _server.OnSRSEvent = OnSRSEvent;
-        _server.OnSRSHubEvent = OnSRSHubEvent;
-
-        this.moneyType = MoneyType.GOLD;
-
-        LoadMoney();
-        StartCoroutine(WaitToLoadEvent());
-    }
-
     public void ClearUI()
     {
         gMenuContent.SetActive(false);
@@ -277,9 +265,9 @@ public class LGameSlot25LineLobby : UILayer
     private IEnumerator WaitToLoadEvent()
     {
         LoadEvent();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         //yield return null;
-        ButtonSelectRoomClickListener(1);
+        
     }
 
     public void LoadSound()
@@ -293,6 +281,8 @@ public class LGameSlot25LineLobby : UILayer
     public void HandleConnected()
     {
         UILayerController.Instance.HideLoading();
+        Debug.LogError("connet đc");
+        ButtonSelectRoomClickListener(1);
     }
 
     public void HandleConnectError(string msg)
@@ -302,12 +292,12 @@ public class LGameSlot25LineLobby : UILayer
         {
             LPopup.OpenPopup("Lỗi", msg);
         }
+        Debug.LogError("k connet đc");
     }
 
     public void HandleConnectClose()
     {
         UILayerController.Instance.HideLoading();
-
         StopAllCoroutines();
     }
 

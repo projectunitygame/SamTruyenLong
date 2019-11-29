@@ -1,0 +1,55 @@
+
+noquyst.png
+size: 1652,1652
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fulltranh-effect_0000_light1
+  rotate: true
+  xy: 2, 686
+  size: 359, 870
+  orig: 359, 870
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0001_light2
+  rotate: true
+  xy: 2, 2
+  size: 682, 849
+  orig: 682, 849
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0002_khobau
+  rotate: false
+  xy: 946, 1342
+  size: 310, 308
+  orig: 310, 308
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0004_kho-báu
+  rotate: false
+  xy: 2, 1385
+  size: 942, 265
+  orig: 942, 265
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0007_coin
+  rotate: true
+  xy: 874, 54
+  size: 794, 744
+  orig: 794, 744
+  offset: 0, 0
+  index: -1
+fulltranh-effect_0009_light-effect
+  rotate: false
+  xy: 942, 850
+  size: 550, 490
+  orig: 550, 490
+  offset: 0, 0
+  index: -1
+noquy
+  rotate: false
+  xy: 2, 1047
+  size: 938, 336
+  orig: 938, 336
+  offset: 0, 0
+  index: -1

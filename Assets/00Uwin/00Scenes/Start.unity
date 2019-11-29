@@ -310,7 +310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &143085588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0238deacdb9abda4db271c4993bf8bb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6261525552b50c45a435ecf0b41a5d2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -608,6 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdc4c1bb67330a040a73f5ee373f5a03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastSelectLine25Slots: 01000000
   onUserUpdateGoldEventLua:
     m_PersistentCalls:
       m_Calls: []
@@ -1067,7 +1068,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a31a4e686966eeb40a20a7e844b5e4f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad64221aff7d9de4399cb8b4a3d66370, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6217,11 +6218,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evn: 2
-  strGetLink: https://script.google.com/macros/s/AKfycbywuNxCPuqAv7GlklkvjvcLFpOYbVT8VFfkz0XqvXN7eo4w8UHD/exec
-  linkResource: http://files.wingo8.com/u1/
-  LinkGetCheck: http://services.wingo8.com/app/fetch
+  strGetLink: https://script.google.com/macros/s/AKfycbxlVrwRPSYB38D8nZTduli0p6tfH0RNcY34zWZw1ZiY/exec
+  linkResource: https://files.hamvip.club/u1/
+  LinkGetCheck: https://services.hamvip.club/app/fetch
   keyUpdate: '"b326b5062b2f0e69046810717534cb09"'
-  verBuild: 7
+  verBuild: 8
   ani: {fileID: 1516590353}
   imgProcess: {fileID: 1183225234}
   popupStart: {fileID: 1745580444}
@@ -6774,9 +6775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfac06860587e0a48a55ede03ad8ea0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urlApiPortal: 
-  urlApiCustom: 
-  urlEvent: 
+  urlApiPortal: https://api.hamvip.club/
+  urlApiCustom: https://api.hamvip.club/
+  urlEvent: https://event.hamvip.club/api/
   isActivePopupError: 0
   onWebServiceResponseLua:
     m_PersistentCalls:

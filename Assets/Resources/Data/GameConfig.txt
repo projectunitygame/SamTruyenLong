@@ -1,6 +1,6 @@
 {
   "assetbundle": {
-    "link": "http://files.wingo8.com/u1/pub/",
+    "link": "https://files.hamvip.club/u1/pub/",
     "preload": [
       {
         "gid": 0,
@@ -99,8 +99,8 @@
   ,
   "taixiu": {
     "gameId": 4,
-    "urlApi": "http://files.wingo8.com",
-    "urlServer": "http://files.wingo8.com/signalr/negotiate",
+    "urlApi": "https://files.hamvip.club",
+    "urlServer": "https://files.hamvip.club/signalr/negotiate",
     "hubName": "luckyDice"
   }
 }

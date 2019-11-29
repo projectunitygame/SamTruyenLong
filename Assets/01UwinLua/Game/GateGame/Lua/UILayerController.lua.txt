@@ -13,13 +13,11 @@ local timePause = 0
 local ShowLayerFromBundleCallBack = nil
 local _uiCamera = nil
 
-local urlApiPortal = "http://api.wingo8.com/"
-local urlEvent = "http://event.wingo8.com/api/"
+
 
 function start()
 
-    CS.WebServiceController.Instance.urlApiPortal = urlApiPortal
-    CS.WebServiceController.Instance.urlEvent = urlEvent
+
 
     layers[CS.UILayer.Position.Bootom] = {}
     layers[CS.UILayer.Position.Middle] = {}

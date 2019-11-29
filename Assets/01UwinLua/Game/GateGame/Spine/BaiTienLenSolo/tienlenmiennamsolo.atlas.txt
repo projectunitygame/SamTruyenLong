@@ -1,0 +1,62 @@
+
+tienlenmiennamsolo.png
+size: 310,310
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Icon TLMN/1
+  rotate: false
+  xy: 2, 118
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+Icon TLMN/2
+  rotate: false
+  xy: 2, 11
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+Icon TLMN/3
+  rotate: false
+  xy: 92, 19
+  size: 77, 97
+  orig: 77, 97
+  offset: 0, 0
+  index: -1
+Icon TLMN/4
+  rotate: true
+  xy: 194, 125
+  size: 76, 97
+  orig: 76, 97
+  offset: 0, 0
+  index: -1
+Icon TLMN/5
+  rotate: false
+  xy: 194, 203
+  size: 88, 105
+  orig: 88, 105
+  offset: 0, 0
+  index: -1
+Icon TLMN/6
+  rotate: false
+  xy: 171, 2
+  size: 136, 46
+  orig: 136, 46
+  offset: 0, 0
+  index: -1
+Icon TLMN/7
+  rotate: true
+  xy: 284, 214
+  size: 94, 23
+  orig: 94, 23
+  offset: 0, 0
+  index: -1
+Icon TLMN/8
+  rotate: true
+  xy: 171, 50
+  size: 66, 24
+  orig: 66, 24
+  offset: 0, 0
+  index: -1

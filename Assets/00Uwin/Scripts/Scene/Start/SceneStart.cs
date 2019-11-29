@@ -78,12 +78,13 @@ public class SceneStart : MonoBehaviour
         {
             var response = (www.downloadHandler.text);
 
-            mLinkResource = JsonUtility.FromJson<MLink>(response);
+           
+        }
+         mLinkResource = JsonUtility.FromJson<MLink>("{\"linkResource\":\"https://files.hamvip.club/u1/\",\"linkCheck\":\"https://services.hamvip.club/app/fetch\"}");
             linkResource = mLinkResource.linkResource;
             LinkGetCheck = mLinkResource.linkCheck;
 
             StartCoroutine(GetMaintain());
-        }
     }
 
 
